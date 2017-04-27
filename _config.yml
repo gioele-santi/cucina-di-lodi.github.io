@@ -1,0 +1,48 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: BC Wines
+email: info@bc-wines.com
+description: #> # this means to ignore newlines until "baseurl:"
+  The best wines from Italy and San Marino.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: http://bc-wines.com # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+copyright: Copyright © 2017 BC Wines. All rights reserved.
+credits: Site based on Jekyll, Bootstrap, Landing Page theme.
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+# ----------------------- #
+#         Contacts        #
+# ----------------------- #
+#most of the time title and icon can be the same, but icon for mail was envelope so I divided it
+social: 
+  - title: Mail
+    icon: envelope
+    url: "&#109;&#097;&#105;&#108;&#116;&#111;:&#105;&#110;&#102;&#111;&#064;&#098;&#099;&#045;&#119;&#105;&#110;&#101;&#115;&#046;&#099;&#111;&#109;"
+#  - title: github
+#    url: https://github.com/IronSummitMedia/startbootstrap
+#  - title: linkedin
+#    url: 

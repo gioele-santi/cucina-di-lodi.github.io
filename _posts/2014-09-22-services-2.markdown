@@ -2,7 +2,9 @@
 layout: default
 img: vineyard.jpg
 category: Services
-title: the best vineyards
+title: All over Italy
 description: |
 ---
-  Nulla convallis porttitor ex, tincidunt tempor tellus cursus vitae. Pellentesque eget enim sit amet lorem tristique bibendum. Sed in libero tellus. Etiam fringilla feugiat vulputate. Aliquam erat volutpat. Etiam luctus eros ipsum, nec semper nisl dignissim vel. Duis vitae lorem augue. Morbi leo lacus, sodales auctor accumsan eu, ullamcorper id nibh.
+ 
+Our wineries are from the most well-known regions of Italy.  
+Tuscany, Emilia-Romagna, Veneto, Campania, Sicily, Marche, Apulia, San Marino, to name but a few.

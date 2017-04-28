@@ -181,6 +181,6 @@ p.copyright {
 
 /* Gioele -> some extra custom styles */
 
-#about h2, .content-section-a h2, .content-section-b h2 {
+#about h2, .content-section-a h2, .content-section-b h2, b {
     color: #800140;
 }

@@ -2,7 +2,9 @@
 layout: default
 img: grapes.jpg
 category: Services
-title: From the best grapes
+title: Tradition and quality
 description: |
 ---
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed tellus sit amet nunc pellentesque tristique. Sed eu neque odio. Donec tempus nunc vel ante ultricies, a blandit arcu tristique. Sed sit amet eleifend orci, nec congue urna. Morbi lacinia tempus tortor et elementum. Nam in efficitur neque, sed scelerisque elit. Suspendisse tincidunt quam pharetra dignissim luctus. Curabitur id malesuada leo, nec gravida mi.
+  Our fellow wineries are not among the most famous in the world, the ones that you would easily find in a supermarket.  
+  Therefore they are not subject to market pressure and can still produce wine by traditional methods.  
+  Their love for the territory was even awarded by **EU 100% organic certification**.

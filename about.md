@@ -1,15 +1,10 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Contatti
+permalink: /contatti/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+***Lodi Pasta Fresca*** si trova in Via Impietrata 13, Fiorentino (RSM). È aperto dal Martedì al Sabato, dalle ore 8:30 alle 12:30 e dalle ore 15:30 alle 19:30.
+Per informazioni e prenotazioni: 0549/997293
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q=via impietrata 13, Fiorentino (RSM), &t=&z=15&ie=UTF8&iwloc=&output=embed" marginwidth="0"><a class="addmaps" href="http://wordpress-themes.org"id="get-map-data" mce_href="http://maps.google.com/maps/">via impietrata 13, Fiorentino (RSM), </a><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></iframe>

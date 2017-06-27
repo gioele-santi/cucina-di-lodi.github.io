@@ -1,0 +1,45 @@
+{% comment %} Generate localized date {% endcomment %}
+{% assign months = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
+
+{% assign _date = '' %}
+{% assign _cats = '' %}
+{% assign _tags = '' %}
+
+{% if page.layout == 'post' %}
+
+    {% assign _date = page.date %}
+    {% assign _cats = page.categories %}
+    {% assign _tags = page.tags %}
+
+{% else %}
+
+    {% assign _date = post.date %}
+    {% assign _cats = post.categories %}
+    {% assign _tags = post.tags %}
+
+{% endif %}
+
+
+{% assign m = _date | date: "%-m" | minus: 1 %}
+{% assign day = _date | date: "%d" %}
+{% assign month = months[m] %}
+{% assign year = _date | date: "%Y" %}
+
+<p><span class="post-date post-description">Pubblicato il {{ day }} {{ month }} {{ year }}
+        
+        {% if _cats[0] != null %} &nbsp in: &nbsp
+            {% for category in _cats %}
+                <a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}">{{ category }}</a>
+            {% endfor %}
+        {% endif %}
+        
+        </span>
+        <br>
+        {% if _tags[0] != null %}
+        <span class="post-description"><span class="icon icon-tags"></span>&nbsp 
+            {% for tag in _tags %}
+                <a class="tag-button" href="{{ site.baseurl }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
+            {% endfor %}
+        </span>
+    {% endif %}
+</p>

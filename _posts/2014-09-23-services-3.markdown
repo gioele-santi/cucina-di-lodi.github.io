@@ -1,9 +1,0 @@
----
-layout: default
-img: winedrop.jpg
-category: Services
-title: Wine
-description: |
----
-These are just some of the wine varieties we export.  
-Brunello di Montalcino, Bolgheri, Chianti, Chianti Riserva, Chianti Classico, Classico Riserva, Rosso di Montalcino, Primitivo di Vanduria, Nero d'Avola, Amarone della Valpolicella, Valpolicella, Bardolino, Soave, Bianco di Custoza, Prosecco DOCG, Falanghina, Aglianico, Greco di Tufo, Montegucciano, Sangiovese, Chardonet, Montepulciano and so on...

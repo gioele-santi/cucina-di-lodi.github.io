@@ -1,0 +1,32 @@
+---
+layout: blog
+---
+
+<div class="post">
+  <h1 class="post-title">{{ page.title }}</h1>
+
+    {% include post-descriptor.html %}
+    
+  {% if page.images[0] != null %}
+    <!-- Immagine inserita -->
+    {% assign image = page.images[0] %}
+    <img src="{{ image.url }}" alt="{{ image.alt }}">
+  {% else %}
+    <!-- Se più immagini presenti, provare a fare una galleria -->
+    <!-- Immagine assente -->
+  {% endif %}
+  {{ content }}
+</div>
+
+{% include share-page.html %}
+
+<div class="related">
+  <h2>Post recenti</h2>
+  <ul class="related-posts">
+    {% for post in site.related_posts limit:3 %}
+      <li>
+        {% include post-descriptor-short.html %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>

@@ -1,0 +1,30 @@
+<script type="text/javascript">
+    window.onload = function() { //Expand first tag upon page load
+        
+        //hide title and post (instructions displayed in case of no javascript)
+        document.getElementsByClassName("page-title")[0].style.display = 'none';
+        document.getElementsByClassName("post")[0].style.display = 'none';
+        
+        //hide all tags/cats
+        var listSuper = document.getElementsByClassName("super-item");
+        for(var i=0; i<listSuper.length; i++) {
+            listSuper[i].style.display = 'none';
+        }
+        
+        var selectedTag = window.location.hash.substr(1);
+        document.getElementById(selectedTag+"_super").style.display = 'block';
+        document.getElementById(selectedTag+"_exp").checked = true;
+    }
+    window.onhashchange = function() { //Expand another Tag/Category on tag/cat link click
+        var selectedTag = window.location.hash.substr(1);
+        document.getElementById(selectedTag+"_super").style.display = 'block';
+        document.getElementById(selectedTag+"_exp").checked = true;
+    }
+    window.onclick = function(e) { //Collapse currently open Tag/Category on tag/cat link click
+        if(e.target.tagName.toLowerCase()==='a') {
+            var selectedTag = window.location.hash.substr(1);
+            document.getElementById(selectedTag+"_exp").checked = false;
+            document.getElementById(selectedTag+"_super").style.display = 'none';
+        }
+    }
+</script>

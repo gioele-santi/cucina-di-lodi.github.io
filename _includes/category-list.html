@@ -1,0 +1,56 @@
+{% comment%}
+Here we generate all the categories.
+{% endcomment%}
+
+{% assign rawcats = "" %}
+{% for post in site.posts %}
+{% assign tcats = post.category | join:'|' | append:'|' %}
+{% assign ttcats = post.categories | join:'|' | append:'|' %}
+{% assign rawcats = rawcats | append:tcats %}
+{% assign rawcats = rawcats | append:ttcats %}
+{% endfor %}
+
+{% assign rawcats = rawcats | split:'|' | sort %}
+
+{% assign cats = "" %}
+
+{% for cat in rawcats %}
+{% if cat != "" %}
+
+{% if cats == "" %}
+{% assign cats = cat | split:'|' %}
+{% endif %}
+
+{% unless cats contains cat %}
+{% assign cats = cats | join:'|' | append:'|' | append:cat | split:'|' %}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the categories you have in your site.
+=======================
+{% endcomment %}
+
+{% for category in cats %}
+	<a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}"> {{ category }} </a>
+{% endfor %}
+
+{% comment %}
+=========================
+Count posts without category, if > 0 add a "no cat" link.
+=========================
+{% endcomment %}
+
+{% assign no_cat_count = 0 %}
+{% for post in site.posts %}
+  {% if post.categories[0] == null and post.category == null  %}
+        {% assign no_cat_count = no_cat_count | plus: 1 %}
+        <!-- No cat count = {{ no_cat_count }} -->
+  {% endif %}
+{% endfor %}
+
+{% if no_cat_count > 0 %}
+    <a href="{{ site.baseurl }}/category/#no-category" class="category-button" > nessuna categoria </a>
+{% endif %}

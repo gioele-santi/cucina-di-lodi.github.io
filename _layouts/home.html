@@ -45,6 +45,19 @@ layout: page
   <div class="row">
     <div class="col-sm-8">
         <h3>In evidenza</h3><br>
+        
+        {% for article in site.evidenza %}
+            
+            <div class="col-sm-6">
+                <a href="{{article.link}}" >
+                    <img src="{{article.images[0].url}}" class="img-responsive" style="width:100%" alt="{{article.images[0].alt}}">
+                    <p>{{article.title}}</p>
+                </a>
+            </div>
+        
+        {% endfor %}
+        
+<!--
         <div class="col-sm-6">
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           <p>Prodotti</p>
@@ -53,14 +66,15 @@ layout: page
           <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
           <p>Corsi</p>    
         </div>
+-->
     </div>
     
     <div class="col-sm-4">
       <h3>Notizie</h3>
-        <ul class="related-posts">
+        <ul class="latest-posts">
             {% for post in site.posts limit:2 %}
                 <li>
-                    {% include post-descriptor-short.html %}
+                    {% include post-descriptor-news.html %}
                 </li>
             {% endfor %}
         </ul>

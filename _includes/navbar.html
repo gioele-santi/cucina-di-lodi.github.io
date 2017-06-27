@@ -8,23 +8,39 @@
       </button>
         
         <a class="navbar-brand" href="{{ site.baseurl }}/" title="Home">
-                <img src="{{site.title-img}}" alt="{{site.title}}">
+                <img class="img-responsive" src="{{site.title-img}}" alt="{{site.title}}">
             </a>
         
 <!--      <a class="navbar-brand" href="#">{{ site.title }}</a>-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
+        
+        {% assign home_url = site.baseurl | append: '/' %}
+        {% assign blog_url = site.baseurl | append: '/blog/' %}
+        {% assign prod_url = site.baseurl | append: '/prodotti/' %}
+        {% assign corsi_url = site.baseurl | append: '/corsi/' %}
+        {% assign about_url = site.baseurl | append: '/contatti/' %}
           
-        {% assign pages_list = site.pages | sort:"url" %}
-        {% for node in pages_list %}
-          {% if node.title != null %}
-            {% if node.layout == "page" %}
-              <li><a class="{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a></li>
-            {% endif %}
-          {% endif %}
-        {% endfor %}  
+        <li class="{% if page.url == home_url %} active{% endif %}">
+            <a href="{{ home_url }}">Home</a>
+        </li>
+          
+        <li class="{% if page.url == blog_url %} active{% endif %}">
+            <a href="{{ blog_url }}">Blog</a>
+        </li>
+        
+        <li class="{% if page.url == prod_url %} active{% endif %}">
+            <a href="{{ prod_url }}">Prodotti</a>
+        </li>
+          
+        <li class="{% if page.url == corsi_url %} active{% endif %}">
+            <a href="{{ corsi_url }}">Corsi</a>
+        </li>
+          
+        <li class="{% if page.url == about_url %} active{% endif %}">
+            <a href="{{ about_url }}">Contatti</a>
+        </li>
 
       </ul>
 <!--

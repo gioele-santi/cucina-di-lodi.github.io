@@ -10,11 +10,14 @@ layout: blog
   {% if page.images[0] != null %}
     <!-- Immagine inserita -->
     {% assign image = page.images[0] %}
-    <img src="{{ image.url }}" alt="{{ image.alt }}">
+    <br>
+    <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
+    
   {% else %}
     <!-- Se più immagini presenti, provare a fare una galleria -->
     <!-- Immagine assente -->
   {% endif %}
+    <br>
   {{ content }}
 </div>
 

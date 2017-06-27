@@ -1,0 +1,53 @@
+---
+layout: blog
+title: Categorie
+---
+
+{% comment %}   In comment to avoid tag cloud on top of page (I need tag list though) {% endcomment %}
+<!--{% include category-list.html %}-->
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div class="post">In questa sezione sono raccolte tutte le categorie utilizzate nel sito. Premi sulla freccia per espandere le liste.</div>
+
+
+<ul class="expandable"> <!-- Categories post list -->
+    
+    {% for ct in cats %}
+    <li class="expandable super-item" id="{{ ct | slugify }}_super">
+        
+        <input class="expandable" type="checkbox" id="{{ ct | slugify }}_exp"><label class="expandable" for="{{ ct | slugify }}_exp"> </label>
+        <h2 class="expandable" id="{{ ct | slugify }}">{{ ct }}</h2>
+        
+        <ul class="expandable">
+            {% for post in site.posts %}
+                {% if post.categories contains ct or post.category contains ct %}
+                <li class="expandable sub-item">
+                    {% include post-descriptor-short.html %}
+                </li>
+                {% endif %}
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+    
+    {% if no_cat_count > 0 %}
+    <li class="expandable super-item" id="no-category_super">
+        <input class="expandable" type="checkbox" id="no-category_exp"><label class="expandable" for="no-category_exp"> </label>
+        <h2 class="expandable" id="no-category">nessuna categoria</h2>
+    
+        <ul class="expandable">
+            {% for post in site.posts %}
+                {% if post.categories[0] == null and post.category == null  %}
+                <li class="expandable sub-item">
+                    {% include post-descriptor-short.html %}
+                </li>
+                {% endif %}
+            {% endfor %}   
+        </ul>
+    </li>
+    {% endif %}
+    
+</ul>
+
+{% include tag-cat-link-script.html %}

@@ -1,0 +1,38 @@
+---
+layout: blog
+title: Tag
+---
+
+
+
+{% comment %}   In comment to avoid tag cloud on top of page (I need tag list though) {% endcomment %}
+<!--{% include tag-list.html %} -->
+
+<h1 class="page-title">{{ page.title }}</h1>
+
+<div class="post">In questa sezione sono raccolti tutti i tag utilizzati nel sito. Premi sulla freccia per espandere le liste.</div>
+
+<ul class="expandable"> <!-- Tag post list -->
+    {% for tag in tags %}
+    
+    <li class="expandable super-item" id="{{ tag | slugify }}_super">
+        <input class="expandable" type="checkbox" id="{{ tag | slugify }}_exp"><label class="expandable" for="{{ tag | slugify }}_exp"> </label>
+        <h2 class="expandable" id="{{ tag | slugify }}">{{ tag }}</h2>
+        
+        <ul class="expandable">
+            {% for post in site.posts %}
+                {% if post.tags contains tag %}
+                    <li class="expandable sub-item">
+                            {% include post-descriptor-short.html %}
+                    </li>
+                {% endif %}
+            {% endfor %}
+            
+        </ul>
+    </li>
+    
+{% endfor %}  
+
+</ul>
+
+{% include tag-cat-link-script.html %}

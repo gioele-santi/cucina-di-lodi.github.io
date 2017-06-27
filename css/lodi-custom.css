@@ -1,3 +1,4 @@
+/*
 .navbar {
     min-height: 70px !important;
 }
@@ -9,13 +10,10 @@
 .nav li {
     padding-top: 20px;
 }
+*/
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
+.navbar .img-responsive {
+    max-height: 35px;
 }
 
 .post {
@@ -121,3 +119,64 @@
     margin-top: -100px;
     object-fit: cover
 }
+
+/* Expandable category and tag lists */
+
+.expandable h2 {
+    display: inline;
+}
+
+.expandable ul { list-style-type: none; }
+
+.expandable label{
+/*	background-color: #AAAFAB;*/
+	border-radius: 5px;
+	padding: 3px;
+	padding-left: 25px;
+	color: black;	
+}
+
+.expandable li { list-style: none; }
+
+.expandable input[type=checkbox] { display: none; }
+
+.expandable input[type=checkbox] ~ ul { 
+	max-height: 0;
+	max-width: 0;
+	opacity: 0;
+	overflow: hidden;
+	white-space:nowrap;
+   -webkit-transition:all 1s ease;  
+   -moz-transition:all 1s ease;  
+   -o-transition:all 1s ease;  
+   transition:all 1s ease;  
+	
+}
+
+.expandable input[type=checkbox]:checked ~ ul { 
+	max-height: 100%;
+	max-width: 100%;
+	opacity: 1;
+}
+
+.expandable input[type=checkbox] + label:before{
+	transform-origin:25% 50%;
+  border: 8px solid transparent;
+  border-width: 8px 12px;	
+  border-left-color: black;
+  margin-left: -20px;
+	width: 0;
+	height: 0;
+	display: inline-block;
+	text-align: center;
+	content: '';
+/*	color: #AAAFAB;*/
+   -webkit-transition:all .5s ease;  
+   -moz-transition:all .5s ease;  
+   -o-transition:all .5s ease;  
+   transition:all .5s ease; 
+	position: absolute;
+	margin-top: 12px !important;
+}
+
+.expandable input[type=checkbox]:checked + label:before { transform: rotate(90deg); }

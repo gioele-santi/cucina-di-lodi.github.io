@@ -1,29 +1,50 @@
 <!-- Footer -->
-<footer class="container-fluid text-center footer">
+<footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-8">
                 <ul class="list-inline">
-                    <li>
-                        <a href="#home">Home</a>
+                    
+                    {% assign home_url = site.baseurl | append: '/' %}
+                    {% assign blog_url = site.baseurl | append: '/blog/' %}
+                    {% assign prod_url = site.baseurl | append: '/prodotti/' %}
+                    {% assign corsi_url = site.baseurl | append: '/corsi/' %}
+                    {% assign about_url = site.baseurl | append: '/contatti/' %}
+                    
+                    <li class="{% if page.url == home_url %} active{% endif %}">
+                        <a href="{{ home_url }}">Home</a>
                     </li>
+
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#about">About</a>
+
+                    <li class="{% if page.url == blog_url %} active{% endif %}">
+                        <a href="{{ blog_url }}">Blog</a>
                     </li>
+
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#services">Services</a>
+
+                    <li class="{% if page.url == prod_url %} active{% endif %}">
+                        <a href="{{ prod_url }}">Prodotti</a>
                     </li>
+
                     <li class="footer-menu-divider">&sdot;</li>
-                    <li>
-                        <a href="#contact">Contact</a>
+
+                    <li class="{% if page.url == corsi_url %} active{% endif %}">
+                        <a href="{{ corsi_url }}">Corsi</a>
                     </li>
+
+                    <li class="footer-menu-divider">&sdot;</li>
+
+                    <li class="{% if page.url == about_url %} active{% endif %}">
+                        <a href="{{ about_url }}">Contatti</a>
+                    </li>
+                    
                 </ul>
-                <p class="copyright text-muted small">{{ site.copyright }}</p>
+                
             </div>
             <div class="col-md-4">
                 {{ site.credits }}
+                <p class="copyright text-muted small">{{ site.copyright }}</p>
             </div>
         </div>
     </div>

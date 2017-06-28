@@ -16,6 +16,14 @@
     max-height: 35px;
 }
 
+#myCarousel img {
+/*
+    object-fit: cover; 
+    overflow: hidden;
+*/
+    height: 100%;
+}
+
 .post {
     padding-left: 15px;
     padding-right: 15px;

@@ -3,7 +3,7 @@ layout: page
 
 ---
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+<div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       {% for banner in site.carosello %}
@@ -28,7 +28,7 @@ layout: page
             {% else %}
                 <div class="item">
             {% endif %}
-                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}">
+                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" >
                 <div class="carousel-caption">
                   {{ banner.content }}
                 </div>      

@@ -15,7 +15,7 @@ paginate_path: "/blog/page:num/"
 excerpt_separator: <!--continua-->
 
 
-copyright: Copyright © 2017 LODI. All rights reserved.
+copyright: Copyright © 1987 - 2017 LODI. Tutti i diritti riservati.
 credits: Site based on Jekyll and Bootstrap.
 #add link to gioele github
 

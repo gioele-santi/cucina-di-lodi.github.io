@@ -37,19 +37,34 @@ title: Blog
     {% endfor %} 
         
         
-    <div class="pagination">
-      {% if paginator.next_page %}
-        <a class="pagination-item older" href="{{paginator.next_page_path}}">Precedenti</a>
-      {% else %}
-        <span class="pagination-item older">Precedenti</span>
-      {% endif %}
-      {% if paginator.previous_page %}
-        {% if paginator.page == 2 %}
-          <a class="pagination-item newer" href="{{ site.baseurl }}/">Recenti</a>
-        {% else %}
-          <a class="pagination-item newer" href="{{paginator.previous_page_path}}">Recenti</a>
-        {% endif %}
-      {% else %}
-        <span class="pagination-item newer">Recenti</span>
-      {% endif %}
+    <div>
+        <ul class="pager">
+            {% if paginator.next_page %}
+              <li class="previous">
+                  <a href="{{paginator.next_page_path}}">Precedenti</a>
+              </li>
+            {% else %}
+              <li class="previous disabled">
+                  <a>Precedenti</a>
+              </li>
+            {% endif %}
+              
+              
+            {% if paginator.previous_page %}
+                {% if paginator.page == 2 %}
+                    <li class="next">
+                        <a href="{{ site.baseurl }}/blog/">Recenti</a>
+                    </li>
+                {% else %}
+                    <li class="next">
+                        <a href="{{paginator.previous_page_path}}">Recenti</a>
+                    </li>
+                {% endif %}
+            {% else %}
+                <li class="next disabled">
+                        <a>Recenti</a>
+                    </li>
+            {% endif %}
+               
+        </ul>
     </div>

@@ -2,7 +2,7 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <ul class="list-inline">
                     
                     {% assign home_url = site.baseurl | append: '/' %}
@@ -41,14 +41,13 @@
                     
                 </ul>
                 
-                
+<!--                <hr class="visible-sm visible-xs">-->
                 
                   
 
                 
             </div>
-            <div class="col-md-4">
-                <p>
+            <div class="col-md-3">
                 <ul class="list-inline social-footer">
                     {% for social in site.social %}
                         <li>
@@ -64,12 +63,12 @@
                         </li>
                         
                   </ul>
-                </p>
             </div>
+            
         </div>
         
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-9">
                 <p class="copyright text-muted small">{{ site.copyright }}</p>
             </div>
         </div>

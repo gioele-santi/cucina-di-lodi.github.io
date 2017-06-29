@@ -1,19 +1,26 @@
-/*
-.navbar {
-    min-height: 70px !important;
+.navbar-brand {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important; /*override default to center custom brand image*/
 }
-
-.nav {
-    min-height: 70px;
-}
-
-.nav li {
-    padding-top: 20px;
-}
-*/
 
 .navbar .img-responsive {
-    max-height: 35px;
+    max-height: 60px;
+}
+
+@media (max-width: 480px) { /*avoid smartphone layout moving title and increase navbar height*/
+    .navbar .img-responsive {
+    
+        padding-top: 5px;
+        max-width: 300px;
+}
+}
+
+@media (max-width: 414px) { /*avoid iPhone layout moving title and increase navbar height*/
+    .navbar .img-responsive {
+    
+        padding-top: 15px;
+        max-width: 228px;
+}
 }
 
 #myCarousel img {
@@ -22,6 +29,11 @@
     overflow: hidden;
 */
     height: 100%;
+}
+
+/*remove gray gradient around carousel*/
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
 
 .post {

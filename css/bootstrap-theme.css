@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=99a7ecb7ea698c8451cb10f181ad26c8)
- * Config saved to config.json and https://gist.github.com/99a7ecb7ea698c8451cb10f181ad26c8
+ * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=ca49f40e56424a46e402e9e6db0bea1a)
+ * Config saved to config.json and https://gist.github.com/ca49f40e56424a46e402e9e6db0bea1a
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -359,12 +359,12 @@ fieldset[disabled] .btn-danger.active {
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .active > a {
-  background-image: -webkit-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
-  background-image: -o-linear-gradient(top, #dbdbdb 0%, #e2e2e2 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#dbdbdb), to(#e2e2e2));
-  background-image: linear-gradient(to bottom, #dbdbdb 0%, #e2e2e2 100%);
+  background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #fafafa 100%);
+  background-image: -o-linear-gradient(top, #f2f2f2 0%, #fafafa 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#fafafa));
+  background-image: linear-gradient(to bottom, #f2f2f2 0%, #fafafa 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff2f2f2', endColorstr='#fffafafa', GradientType=0);
   -webkit-box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 3px 9px rgba(0, 0, 0, 0.075);
 }

@@ -6,14 +6,14 @@ permalink: /contatti/
 
 <br>
 
-<section id="about" class="container content-section">
+<!--<section id="about" class="container content-section">-->
 <div class="container-fluid">
   <div class="row content">
     
 
     <div class="col-sm-9">
         
-        <div class="row post">
+        <div class="post">
         
             <h2>Su di noi</h2>
         
@@ -23,6 +23,9 @@ permalink: /contatti/
             
             <iframe width="100%" height="450" frameborder="0" scrolling="no" marginheight="0" src="https://maps.google.com/maps?q=via impietrata 13, Fiorentino (RSM), &t=&z=15&ie=UTF8&iwloc=&output=embed" marginwidth="0"><a class="addmaps" href="http://wordpress-themes.org"id="get-map-data" mce_href="http://maps.google.com/maps/">via impietrata 13, Fiorentino (RSM), </a><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></iframe>
         
+            <div class="visible-xs">
+                {% include separator.html %}
+            </div>
         
         </div>
 
@@ -30,18 +33,19 @@ permalink: /contatti/
       
     <div class="col-sm-3 sidenav">
         
-        <div class="row post text-center">
+        <div class="text-center">
             <h2>
                 Informazioni
             </h2>
             
-            {% include separator_small.html %}
+            
             
         </div>
         
         
         
-        <div class="row post text-center">
+        <div class="post text-center">
+            {% include separator_small.html %}
             <h3>
                 Recapiti
             </h3>
@@ -57,11 +61,12 @@ permalink: /contatti/
             
             <p><span class="icon icon-phone"> &emsp; 0549/997293</span></p>
             
-            {% include separator_small.html %}
+            
             
         </div>
         
-        <div class="row post text-center">
+        <div class="post text-center">
+            {% include separator_small.html %}
             <h3>
                 Orario
             </h3>
@@ -84,7 +89,7 @@ permalink: /contatti/
   </div>
 </div>
 
-</section>
+<!--</section>-->
 
 <br>
 

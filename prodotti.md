@@ -31,7 +31,7 @@ permalink: /prodotti/
 
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
+                    {% include separator_heading.html %}
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
@@ -40,7 +40,7 @@ permalink: /prodotti/
                     {% if post.images[0] != null %}
                         <!-- Immagine inserita -->
                         {% assign image = post.images[0] %}
-                            <img class="img-responsive" src="{{ image.url }}" alt="{{ image.alt }}">
+                            <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
                         {% else %}
                         <!-- Immagine non inserita -->
                     {% endif %}
@@ -60,7 +60,7 @@ permalink: /prodotti/
 
             <div class="row">
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
+                    {% include separator_heading_reverse.html %}
                     <div class="clearfix"></div>
                     <h2 class="section-heading">{{ post.title }}</h2>
                     <div class="lead">{{ post.content }}</div>
@@ -69,7 +69,7 @@ permalink: /prodotti/
                   {% if post.images[0] != null %}
                         <!-- Immagine inserita -->
                         {% assign image = post.images[0] %}
-                            <img class="img-responsive" src="{{ image.url }}" alt="{{ image.alt }}">
+                            <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
                         {% else %}
                         <!-- Immagine non inserita -->
                     {% endif %}

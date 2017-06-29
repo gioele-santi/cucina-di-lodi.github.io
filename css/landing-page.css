@@ -10,6 +10,7 @@ html {
     height: 100%;
 }
 
+/*
 body,
 h1,
 h2,
@@ -20,6 +21,7 @@ h6 {
     font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
+*/
 
 .lead {
     font-size: 18px;
@@ -103,13 +105,13 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    border-top: 1px solid #2D823B; /*#e7e7e7;*/
-    background-color: #ddf4e0; /*#f8f8f8;*/
+    border-top: 1px solid #F1E5C7; /*#2D823B;*/ /*#e7e7e7;*/
+    background-color: #FBF7EF; /*#ddf4e0; */ /*#f8f8f8;*/
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #2D823B; /*#e7e7e7;*/
+    border-top: 1px solid #F1E5C7; /*#2D823B;*/ /*#e7e7e7;*/
     /*border-bottom: 1px solid #800140; /*#e7e7e7;*/ /*top border added to section a, so commented bottom*/
 }
 

@@ -2,7 +2,7 @@
 title: Corsi
 
 images:
-  - url: /img/placeholder.JPG
+  - url: /img/evidenza/cappellini.jpg
     alt: corsi
     
 link: /corsi/

@@ -5,6 +5,8 @@ permalink: /contatti/
 ---
 
 <br>
+
+<section id="about" class="container content-section">
 <div class="container-fluid">
   <div class="row content">
     
@@ -13,7 +15,7 @@ permalink: /contatti/
         
         <div class="row post">
         
-            <h1>Su di noi</h1>
+            <h2>Su di noi</h2>
         
             <p>Lodi Pasta Fresca è stato fondato nel 1987 ed è attualmente il più longevo laboratorio di pasta artigianale nella Repubblica di San Marino.</p>
         
@@ -82,5 +84,7 @@ permalink: /contatti/
   </div>
 </div>
 
+</section>
 
+<br>
 

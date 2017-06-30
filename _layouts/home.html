@@ -5,6 +5,7 @@ layout: page
 
 <div id="myCarousel" class="carousel slide hidden-xs" data-ride="carousel">
     <!-- Indicators -->
+<!--
     <ol class="carousel-indicators">
       {% for banner in site.carosello %}
             
@@ -17,6 +18,7 @@ layout: page
       {% endfor %}    
 
     </ol>
+-->
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
@@ -30,7 +32,9 @@ layout: page
             {% endif %}
                 <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" >
                 <div class="carousel-caption">
+                {% comment %}
                   {{ banner.content }}
+                {% endcomment %}
                 </div>      
             </div>
         
@@ -47,6 +51,23 @@ layout: page
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
+        
+    <!-- Fixed text over carousel -->
+    <div class="main-text hidden-xs">
+        <div class="col-md-12 text-center">
+
+            <hr class="intro-divider">
+            <ul class="list-inline intro-social-buttons">
+                {% for social in site.social %}
+                    <li>
+                        <a href="{{ social.url }}" class="btn  btn-sm btn-default"><i class="fa fa-{{ social.icon }} fa-fw"></i> <span class="network-name hidden-sm">{{ social.title }}</span></a>
+                    </li>
+                {% endfor %}
+            </ul>
+            
+        </div>
+    </div>
+        
 </div>
   
 <div class="container text-center">    

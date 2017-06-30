@@ -36,6 +36,47 @@
     background-image: none !important;
 }
 
+/* overlay text over carousel */
+
+.main-text
+{
+    position: relative;
+    margin-top:  -140px; /*50px;*/
+    margin-bottom: 140px; /*avoid empty space below carousel*/
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+@media (max-width: 992px) {
+    .main-text
+{
+    margin-top:  -100px; /*50px;*/
+    margin-bottom: 30px; /*avoid empty space below carousel*/
+
+}
+}
+
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    border-width: 2px;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+/* end overlay */
+
 .post {
     padding-left: 15px;
     padding-right: 15px;

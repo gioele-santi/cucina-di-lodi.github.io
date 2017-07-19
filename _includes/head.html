@@ -32,4 +32,9 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     {% seo %}
+    
+    {% if site.google_analytics and jekyll.environment == 'development' %}
+        {% include analytics.html %}
+    {% endif %}
+    
 </head>

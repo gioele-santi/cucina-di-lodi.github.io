@@ -25,6 +25,10 @@ collections:
     evidenza:
     corsi:
 
+# Analytics
+google_analytics: UA-102813625-1
+
+
 # ----------------------- #
 #         Contacts        #
 # ----------------------- #

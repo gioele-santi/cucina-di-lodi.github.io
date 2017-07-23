@@ -1,14 +1,16 @@
 ---
 layout: post
 title:  "Cosa bolle in pentola"
-date:   2017-07-24 08:30:00 +0100
+date:   2017-07-24 00:30:00 +0100
 
 categories: notizie
 tags: 
 
 images:
-  - url: /img/placeholder.JPG
-    alt: Immagine segnaposto
+  - url: /img/post/pentola.jpg
+    alt: Pentola che sbuffa
+
+image_credits: Fonte <a href="https://stocksnap.io/photo/IZYP5AYVUD">stocksnap.io</a>
     
 published: true
     

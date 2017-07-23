@@ -12,7 +12,7 @@ permalink: /corsi/
           <h2>Corsi di cucina</h2>
           <br/>
             <p>Cucinare non è solo sminuzzare gli ingredienti, metterli in una padella e stare attenti a non bruciarli.</p>
-            <p>Cucinare è anche saper scegliere gli ingredienti e maneggiarli con cura ed abbinarli al meglio.</p>
+            <p>Cucinare è anche saper scegliere gli ingredienti, maneggiarli con cura ed abbinarli al meglio.</p>
             <p>Comprendere le tecniche di cottura per esaltare i sapori.</p>
             <p>Ma anche capire meglio quello che mangiamo tutti i giorni, scegliere alternative più salutari e perché no risparmiare sulla spesa ma senza rinunciare alla qualità.</p>
             <br/>

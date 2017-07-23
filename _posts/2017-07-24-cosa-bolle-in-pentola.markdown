@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Cosa bolle in pentola"
-date:   2017-07-01 08:30:00 +0100
+date:   2017-07-24 08:30:00 +0100
 
 categories: notizie
 tags: 
@@ -9,10 +9,13 @@ tags:
 images:
   - url: /img/placeholder.JPG
     alt: Immagine segnaposto
+    
+published: true
+    
 ---
-Tra un mese Lodi Pasta Fresca compie 30 anni. È un anno importante fatto di rinnovamenti ma anche di conferme.
+Lodi Pasta Fresca compie 30 anni. È un anno importante fatto di rinnovamenti ma anche di conferme.
 
-Abbiamo già cominciato a rinnovare l'immagine del negozio: già da un pò di tempo puoi vedere le nuove insegne, che hanno sostituito le vecchie che ci hanno accompagnato sin dalla primissima sede.
+Abbiamo già cominciato a rinnovare l'immagine del negozio: già da un pò di tempo puoi vedere le nuove insegne, che hanno sostituito le vecchie, che ci hanno accompagnato sin dalla primissima sede.
 <!--continua-->
 
 Poi c'è questo sito internet dove puoi consultare le informazioni sui nostri prodotti (a breve saranno disponibili più schede) e sui corsi di cucina.

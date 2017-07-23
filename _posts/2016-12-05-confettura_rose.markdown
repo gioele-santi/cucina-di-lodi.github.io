@@ -4,6 +4,9 @@ title:  "Confettura di bacche di Rosa Canina"
 date:   2016-12-05 12:01:22 +0100
 categories: ricette
 tags: dolci
+
+published: false
+
 ---
 L'estate è finita, siete dispiaciuti?  
 Si, anch'io, ma anche l'Autunno ha i suoi piccoli piaceri. In particolare non sentite risvegliarsi la voglia di qualcosa di caldo e gustoso? Che ne dite di una bella colazione con latte caldo, pane, burro e marmellata? Dite la verità, ne avete voglia, ma cosa ne dite di qualcosa di diverso dalle solite arance o albicocche? Beh se volete continuare a leggere, ho quello che fa per voi!

@@ -3,7 +3,7 @@ layout: post
 title:  "Cosa bolle in pentola"
 date:   2017-07-23 00:30:00 +0100
 
-image_credits: Fonte <a href="https://stocksnap.io/photo/IZYP5AYVUD">stocksnap.io</a>
+imagecredits: Fonte <a href="https://stocksnap.io/photo/IZYP5AYVUD">stocksnap.io</a>
 
 categories: notizie
 tags: 

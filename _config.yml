@@ -4,7 +4,7 @@ title-img: /img/logo_nuovo.png
 email: cucina.di.lodi@gmail.com
 tagline:             'Pensieri, ricette...'
 description: #> # this means to ignore newlines until "baseurl:"
-  Dal 1987 Pasta Fresca e Corsi di Cucina
+  La Cucina di Lodi nasce dall’esperienza trentennale di Lodi Pasta Fresca. Oltre a preparare e vendere prodotti tipici italiani, organizza corsi di cucina.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://cucina-di-lodi.com # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
@@ -16,7 +16,7 @@ excerpt_separator: <!--continua-->
 
 permalink: none # just keep categories in permalink (no date)
 
-copyright: Copyright © 1987 - 2017 LODI. Tutti i diritti riservati.
+copyright: Copyright © 1987 - 2017 LODI. Tutti i diritti riservati.<br>COE: SM03162
 credits: Made by Gioele Santi. Photos by Gionata Santi.
 #add link to gioele github
 

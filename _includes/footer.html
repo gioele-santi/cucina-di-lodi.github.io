@@ -12,31 +12,31 @@
                     {% assign about_url = site.baseurl | append: '/contatti/' %}
                     
                     <li class="{% if page.url == home_url %} active{% endif %}">
-                        <a href="{{ home_url }}">Home</a>
+                        <a href="{{ home_url }}" title="Home">Home</a>
                     </li>
 
                     <li class="footer-menu-divider">&sdot;</li>
 
                     <li class="{% if page.url == blog_url %} active{% endif %}">
-                        <a href="{{ blog_url }}">Blog</a>
+                        <a href="{{ blog_url }}" title="Blog">Blog</a>
                     </li>
 
                     <li class="footer-menu-divider">&sdot;</li>
 
                     <li class="{% if page.url == prod_url %} active{% endif %}">
-                        <a href="{{ prod_url }}">Prodotti</a>
+                        <a href="{{ prod_url }}" title="Prodotti">Prodotti</a>
                     </li>
 
                     <li class="footer-menu-divider">&sdot;</li>
 
                     <li class="{% if page.url == corsi_url %} active{% endif %}">
-                        <a href="{{ corsi_url }}">Corsi</a>
+                        <a href="{{ corsi_url }}" title="Corsi">Corsi</a>
                     </li>
 
                     <li class="footer-menu-divider">&sdot;</li>
 
                     <li class="{% if page.url == about_url %} active{% endif %}">
-                        <a href="{{ about_url }}">Contatti</a>
+                        <a href="{{ about_url }}" title="Contatti">Contatti</a>
                     </li>
                     
                 </ul>
@@ -51,7 +51,7 @@
                 <ul class="list-inline social-footer">
                     {% for social in site.social %}
                         <li>
-                            <a href="{{ social.url }}"><i class="fa fa-{{ social.icon }} fa-lg"></i></a>
+                            <a href="{{ social.url }}" title="{{ social.title }}"><i class="fa fa-{{ social.icon }} fa-lg"></i></a>
                         </li>
                       
                         <li class="footer-menu-divider">&sdot;</li> 
@@ -59,7 +59,7 @@
                     {% endfor %}
                       
                         <li>
-                            <a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss fa-lg"></i></a>
+                            <a href="{{ site.baseurl }}/feed.xml" title="feed"><i class="fa fa-rss fa-lg"></i></a>
                         </li>
                         
                   </ul>

@@ -30,7 +30,10 @@ layout: page
             {% else %}
                 <div class="item">
             {% endif %}
-                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" >
+                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" 
+                     srcset="{{banner.images[0].url}} 300w,
+                             {{banner.images[1].url}} 600w,
+                             {{banner.images[2].url}} 1200w">
                 <div class="carousel-caption">
                 {% comment %}
                   {{ banner.content }}

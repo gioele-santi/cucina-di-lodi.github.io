@@ -3,3 +3,5 @@
 <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
 <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
 <meta name="twitter:image" content="{{ site.url }}{% if page.images[0] != null %} {{ page.images[0].url }} {% else %}/img/placeholder.jpg{% endif %}" />
+
+<meta property="og:image" content="{{ site.url }}{% if page.images[0] != null %} {{ page.images[0].url }} {% else %}/img/placeholder.jpg{% endif %}" />

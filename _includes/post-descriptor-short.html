@@ -3,7 +3,7 @@
 
 <h4 class="post-description-short">
 
-    <a href="{{ post.url }}">
+    <a href="{{ post.url }}" title="{{ post.title }}">
         {{ post.title }}
     </a>
     {% assign m = post.date | date: "%-m" | minus: 1 %}

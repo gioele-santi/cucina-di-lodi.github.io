@@ -47,9 +47,8 @@ social:
     icon: youtube
     url: https://www.youtube.com/channel/UCTFKEThoXGVaZuNA3Clviwg
   - title: twitter
-  	icon: twitter
-	url: https://twitter.com/cucina_di_lodi
-
+    icon: twitter
+    url: https://twitter.com/cucina_di_lodi
 
 # Build settings
 markdown: kramdown

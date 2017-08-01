@@ -11,7 +11,7 @@
         <a class="navbar-brand" href="{{ site.baseurl }}/" title="Home">
             <img class="img-responsive" src="{{site.title-img}}" alt="{{site.title}}">
             </a>
-            {% if page.title %}{% else %}<h1 class="hidden">{{site.title}}</h1>{% endif %}
+            <h1 class="hidden">{% if page.title %}{{page.title}} | {% endif %}{{site.title}}</h1>
 <!--      <a class="navbar-brand" href="#">{{ site.title }}</a>-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">

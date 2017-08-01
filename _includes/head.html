@@ -28,7 +28,7 @@
     <![endif]-->
     {% seo %}
     
-    {% include twitter_card.html %}
+    <meta property="og:image" content="{{ site.url }}{% if page.images[0] != null %}{{ page.images[0].url }}{% else %}/img/placeholder.jpg{% endif %}" />
     
     {% if site.google_analytics and jekyll.environment == 'development' %}
         {% include analytics.html %}

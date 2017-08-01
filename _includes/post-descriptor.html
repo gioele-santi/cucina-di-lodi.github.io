@@ -29,7 +29,7 @@
         
         {% if _cats[0] != null %} &nbsp in: &nbsp
             {% for category in _cats %}
-                <a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}">{{ category }}</a>
+                <a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}" title="{{ category }}">{{ category }}</a>
             {% endfor %}
         {% endif %}
         
@@ -38,7 +38,7 @@
         {% if _tags[0] != null %}
         <span class="post-description"><span class="icon icon-tags"></span>&nbsp 
             {% for tag in _tags %}
-                <a class="tag-button" href="{{ site.baseurl }}/tag/#{{ tag | slugify }}">{{ tag }}</a>
+                <a class="tag-button" href="{{ site.baseurl }}/tag/#{{ tag | slugify }}" title="{{ tag }}">{{ tag }}</a>
             {% endfor %}
         </span>
     {% endif %}

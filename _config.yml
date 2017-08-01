@@ -7,7 +7,8 @@ description: #> # this means to ignore newlines until "baseurl:"
   La Cucina di Lodi nasce dall’esperienza trentennale di Lodi Pasta Fresca. Oltre a preparare e vendere prodotti tipici italiani, organizza corsi di cucina.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://cucina-di-lodi.com # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+
+twitter_username: cucina_di_lodi
 #github_username:  jekyll
 
 paginate:            4
@@ -44,7 +45,9 @@ social:
   - title: youtube
     icon: youtube
     url: https://www.youtube.com/channel/UCTFKEThoXGVaZuNA3Clviwg
-
+  - title: twitter
+    icon: twitter
+    url: https://twitter.com/cucina_di_lodi
 
 # Build settings
 markdown: kramdown

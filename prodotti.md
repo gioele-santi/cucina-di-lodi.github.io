@@ -11,9 +11,9 @@ permalink: /prodotti/
           <br/><br/>
           <h2>I nostri prodotti</h2>
           <br/>
-            <p>I nostri prodotti.</p>
-            <p>Tutti le ricette ed in particolare i ripieni sono farina del nostro sacco</p>
-            <p><b></b></p>
+            <p>I nostri prodotti sono frutto di un’appassionata ricerca e riscoperta delle <b>ricette e delle forme tradizionali</b>. Ma i sapori cambiano di famiglia in famiglia e così anche le nostre ricette sono <b>state adattate e personalizzate</b> per trasmettere a più persone possibile il ricordo e l’emozione dei piatti di una volta. </p>
+            <p>Le produzione è <b>rigorosamente manuale</b> e viene prestata la massima attenzione sia nella scelta di <b>materie prime di massima qualità</b>, ma anche all’<b>igiene ed alla salute</b>.</p>
+            <p>E poi ... sono anche buoni! Come ci dicono i clienti da 30 anni.</p>
             <br/>
           </div>
     </div>

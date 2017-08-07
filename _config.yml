@@ -4,19 +4,21 @@ title-img: /img/logo_nuovo.png
 email: cucina.di.lodi@gmail.com
 tagline:             'Pensieri, ricette...'
 description: #> # this means to ignore newlines until "baseurl:"
-  Dal 1987 Pasta Fresca e Corsi di Cucina
+  La Cucina di Lodi nasce dall’esperienza trentennale di Lodi Pasta Fresca. Oltre a preparare e vendere prodotti tipici italiani, organizza corsi di cucina.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: http://cucina-di-lodi.com # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
+
+twitter_username: cucina_di_lodi
 #github_username:  jekyll
 
 paginate:            4
 paginate_path: "/blog/page:num/"
 excerpt_separator: <!--continua-->
 
+permalink: none # just keep categories in permalink (no date)
 
-copyright: Copyright © 1987 - 2017 LODI. Tutti i diritti riservati.
-credits: Site based on Jekyll and Bootstrap.
+copyright: Copyright © 1987 - 2017 La Cucina di Lodi. Tutti i diritti riservati. COE SM03162
+credits: Made by Gioele Santi. Photos by Gionata Santi.
 #add link to gioele github
 
 collections:
@@ -24,6 +26,10 @@ collections:
     carosello:
     evidenza:
     corsi:
+
+# Analytics
+google_analytics: UA-102813625-1
+
 
 # ----------------------- #
 #         Contacts        #
@@ -35,11 +41,13 @@ social:
     url: "&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x63;&#x75;&#x63;&#105;&#x6e;&#x61;&#x2e;&#x64;&#x69;&#46;&#108;&#111;&#100;&#x69;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109;"
   - title: facebook
     icon: facebook
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://www.facebook.com/cucina.di.lodi
   - title: youtube
     icon: youtube
-    url: https://github.com/IronSummitMedia/startbootstrap
-
+    url: https://www.youtube.com/channel/UCTFKEThoXGVaZuNA3Clviwg
+  - title: twitter
+    icon: twitter
+    url: https://twitter.com/cucina_di_lodi
 
 # Build settings
 markdown: kramdown

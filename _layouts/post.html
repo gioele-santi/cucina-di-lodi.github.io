@@ -3,19 +3,23 @@ layout: blog
 ---
 
 <div class="post">
-  <h1 class="post-title">{{ page.title }}</h1>
+  <h2 class="post-title">{{ page.title }}</h2>
 
     {% include post-descriptor.html %}
     
   {% if page.images[0] != null %}
-    <!-- Immagine inserita -->
     {% assign image = page.images[0] %}
     <br>
     <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
     
+    {% if page.image_credits != null %}
+        
+        <p><small>{{ page.image_credits }}</small></p><br>   
+    
+    {% endif %}
+    
   {% else %}
-    <!-- Se più immagini presenti, provare a fare una galleria -->
-    <!-- Immagine assente -->
+
   {% endif %}
     <br>
   {{ content }}

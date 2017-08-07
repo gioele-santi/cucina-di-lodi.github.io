@@ -9,6 +9,9 @@ tags: carne pasta verdure
 images:
   - url: /img/placeholder.JPG
     alt: Immagine segnaposto
+    
+published: false    
+
 ---
 Tempo da neve, fa freddo, non sentite il bisogno di riscaldarvi?
 E' ora di brodo! Per preparare un brodo saporito non è necessario usare carne o dado, sono sufficienti le verdure!

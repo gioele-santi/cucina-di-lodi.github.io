@@ -30,7 +30,10 @@ layout: page
             {% else %}
                 <div class="item">
             {% endif %}
-                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" >
+                <img src="{{banner.images[0].url}}" alt="{{banner.images[0].alt}}" 
+                     srcset="{{banner.images[0].url}} 300w,
+                             {{banner.images[1].url}} 600w,
+                             {{banner.images[2].url}} 1200w">
                 <div class="carousel-caption">
                 {% comment %}
                   {{ banner.content }}
@@ -43,11 +46,11 @@ layout: page
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" title="Precedente">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" title="Prossima">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -60,7 +63,7 @@ layout: page
             <ul class="list-inline intro-social-buttons">
                 {% for social in site.social %}
                     <li>
-                        <a href="{{ social.url }}" class="btn  btn-sm btn-default"><i class="fa fa-{{ social.icon }} fa-fw"></i> <span class="network-name hidden-sm">{{ social.title }}</span></a>
+                        <a href="{{ social.url }}" title="{{ social.title }}" class="btn  btn-sm btn-default"><i class="fa fa-{{ social.icon }} fa-fw"></i> <span class="network-name hidden-sm">{{ social.title }}</span></a>
                     </li>
                 {% endfor %}
             </ul>
@@ -79,9 +82,9 @@ layout: page
         {% include separator_small_reverse.html %}
         
         {% for article in site.evidenza %}
-            
+            <h2 class="hidden"> {{article.title}} </h2>
             <div class="col-sm-6">
-                <a href="{{article.link}}" >
+                <a href="{{article.link}}" title="{{article.title}}">
                     <img src="{{article.images[0].url}}" class="img-responsive img-rounded" style="width:100%" alt="{{article.images[0].alt}}">
                     <p>{{article.title}}</p>
                 </a>

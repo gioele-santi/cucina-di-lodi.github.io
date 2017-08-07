@@ -2,7 +2,7 @@
 title: Prodotti
 
 images:
-  - url: /img/placeholder.JPG
+  - url: /img/placeholder.jpg
     alt: prodotti
     
 link: /prodotti/

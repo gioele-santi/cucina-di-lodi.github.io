@@ -30,6 +30,6 @@ Le piante di papavero sono facili da trovare in primavera ma anche in inverno.
 In una ciotola condire le erbette con olio EVO e mischiare bene, poi regolare di sale e aggiungere alcune gocce di aceto Balsamico Tradizionale. 
 
 <!-- Immagine qui -->
-![insalata di rosole pronta](/img/post/insalata.jpg){.img-responsive .img-rounded}
+![insalata di rosole pronta](/img/post/insalata.jpg){: .img-responsive .img-rounded}
 
 *Nota: questo piatto si presta ad essere servito come antipasto anche in occasioni eleganti.*

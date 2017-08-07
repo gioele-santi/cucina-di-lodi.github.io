@@ -53,14 +53,14 @@ permalink: /contatti/
             
             
             <p>
-                <span class="icon icon-home"> &emsp; 
+                <span class="glyphicon glyphicon-home"> &emsp; 
                     Via Impietrata 13,<br> &emsp; &emsp; &ensp;
                     Fiorentino (RSM)
                 </span>
             </p>
             
-            <p><span class="icon icon-phone"> &emsp; 0549/997293</span></p>
-            
+            <p><span class="glyphicon glyphicon-earphone"> &emsp; 0549/997206</span></p>
+            <p><span class="glyphicon glyphicon-phone"> &emsp; 333/3528308</span></p>
             
             
         </div>
@@ -73,10 +73,10 @@ permalink: /contatti/
             
             
             
-            <p><span class="icon icon-calendar"> &emsp; dal Martedì al Sabato </span></p>
+            <p><span class="glyphicon glyphicon-calendar"> &emsp; dal Martedì al Sabato </span></p>
             
             <p>
-                <span class="icon icon-time"> &emsp; 
+                <span class="glyphicon glyphicon-time"> &emsp; 
                     dalle 8:30 alle 12:30  <br> &emsp; &emsp; &nbsp;
                     dalle 15:30 alle 19:30
                 </span>

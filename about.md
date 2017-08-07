@@ -59,8 +59,8 @@ permalink: /contatti/
                 </span>
             </p>
             
-            <p><span class="glyphicon glyphicon-earphone"> &emsp; 0549/997206</span></p>
-            <p><span class="glyphicon glyphicon-phone"> &emsp; 333/3528308</span></p>
+            <p><span class="glyphicon glyphicon-earphone"></span> &emsp; 0549/997206</p>
+            <p><span class="glyphicon glyphicon-phone"></span> &emsp; 333/3528308</p>
             
             
         </div>

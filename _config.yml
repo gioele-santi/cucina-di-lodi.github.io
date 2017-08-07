@@ -48,6 +48,9 @@ social:
   - title: twitter
     icon: twitter
     url: https://twitter.com/cucina_di_lodi
+  - title: instagram
+    icon: instagram
+    url: https://www.instagram.com/cucina.di.lodi
 
 # Build settings
 markdown: kramdown

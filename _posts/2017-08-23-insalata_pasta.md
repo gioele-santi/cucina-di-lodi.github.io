@@ -14,7 +14,7 @@ image_credits: Foto di Gionata Santi</a>
  
 ---
 
-Vi proponiamo una ricettina semplice per gli ultimi giorni di caldo.
+Vi proponiamo una semplice ricetta, adatta anche a vegetariani e vegani, per passare assieme i prossimi giorni di caldo estivo.
 
 <!--continua-->
 

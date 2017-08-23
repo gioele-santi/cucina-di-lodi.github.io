@@ -14,6 +14,10 @@ image_credits: Foto di Gionata Santi</a>
  
 ---
 
+Vi proponiamo una ricettina semplice per gli ultimi giorni di caldo.
+
+<!--continua-->
+
 #### Tempo: 30 min.
 
 #### Ingredienti per 4 porzioni:

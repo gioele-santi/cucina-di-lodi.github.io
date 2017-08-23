@@ -7,7 +7,7 @@ categories: ricette
 tags: insalata vegan
 
 images:
-  - url: /img/post/insalata_pasta.jpg
+  - url: /img/placeholder.jpg
     alt: Insalata di pasta
    
 image_credits: Foto di Gionata Santi</a>
@@ -39,7 +39,7 @@ Vi proponiamo una semplice ricetta, adatta anche a vegetariani e vegani, per pas
 2. Scartate le estremità di zucchine e melanzane. Anche i piccioli dei pomodori.
 3. Tagliate le zucchine in 4 parti e togliete la parte interna morbida (anima).
 4. Riducete le parti esterne delle zucchine, prima a strisce e poi a cubetti di circa 1cm di lato.
-5. Saltate in padella le zucchine così ottenute. Usate poco olio e [trifolate](dizionatio/trifolatura) lentamente fino a cottura.
+5. Saltate in padella le zucchine così ottenute. Usate poco olio e **trifolate** lentamente fino a cottura.
 6. Terminata la cottura, regolate con sale e pepe, poi togliete dalla padella ed appoggiate le zucchine su carta assorbente per togliere l'unto in eccesso.
 
 7. Ripetete la stessa operazione con le melanzane: eliminate l'anima, fate una dadolata e trifolate in padella, stando sempre bene attenti a ridure l'unto alla fine.
@@ -54,7 +54,7 @@ Servito freddo.
 
 * Potete utilizzare anche strozzapreti monocolore.
 * I pomodorini possono essere utilizzati anche a crudo, sia gialli che rossi. Se particolarmente piccoli potete usarli anche interi.
-* Se utilizzate ceci in barattolo, è bene [sbianchirli](dizionario/sbianchire) prima dell'uso: toglierete eventuali additivi e sarà più facile levare le pellicine se non le gradite.
+* Se utilizzate ceci in barattolo, è bene **sbianchirli** prima dell'uso: toglierete eventuali additivi e sarà più facile levare le pellicine se non le gradite.
 *Raffreddate velocemente sia pasta che verdure.
 
 

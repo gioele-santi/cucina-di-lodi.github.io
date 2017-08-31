@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Condimento freddo per insalata di pasta"
-date:   2017-08-23 00:30:00 +0100
+date:   2017-09-01 00:30:00 +0100
 
 categories: ricette
 tags: insalata vegan

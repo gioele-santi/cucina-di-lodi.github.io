@@ -17,6 +17,8 @@ image_credits: Foto di Gionata Santi</a>
 #### Cos'è?
 È una tecnica di cottura veloce. Il termina deriva da trifola, cioé *tartufo*.
 
+<!--continua-->
+
 #### A cosa serve?
 Serve a cuocere carni (rognone), verdure (zucchine, melanzane...) o funghi tagliati a fettine, rondelle o dadini più o meno grossi.
 

@@ -17,6 +17,7 @@ image_credits: Foto di Gionata Santi</a>
 #### Cos'è?
 È una tecnica di *pre*-cottura che si utilizza per trattare gli alimenti durante la preparazione per altre ricette.
 
+<!--continua-->
 
 #### A cosa serve?
 Serve a *ripulire* gli alimenti, rimuovendo eventuali additivi ma anche un'indesiderato sapore amaro o aspro. Ma è anche utile per ammorbire le verdure, ad esempio per gli involtini, o per facilitare la spellatura dei pomodori.

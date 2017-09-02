@@ -24,7 +24,8 @@ Serve a cuocere carni (rognone), verdure (zucchine, melanzane...) o funghi tagli
 
 #### Come si fa?
 In una padella (meglio se antiaderente) si porta lentamente a rosolatura l'alimento scelto con un fondo di olio ed aglio.
-A fine cottura si regola di sale e pepee prima di togliere dalla padella, si aggiunge del prezzemolo tritato.
+A fine cottura si regola di sale e pepe e prima di togliere dalla padella, si aggiunge del prezzemolo tritato.
 
 #### Ricette
-*Melanzane al funghetto* è una semplice ricetta di trifolatura. La *fettina* o gli *straccetti* *all'uccelletto* altro non è che un piatto trifolato.
+*Melanzane al funghetto* è una semplice ricetta di trifolatura.
+La *fettina* o *straccetti* *all'uccelletto* altro non è che un piatto trifolato.

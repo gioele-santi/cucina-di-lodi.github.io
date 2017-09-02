@@ -30,7 +30,7 @@ Vi proponiamo una semplice ricetta, adatta anche a vegetariani, vegani,celiaci p
 * pomodorini ciliegini o datterini 12 pz
 * olio EVO q.b.
 * sale e pepe qb
-* prezzemolo facoltativo
+* prezzemolo o basilico ( facoltativo )
 
 #### Preparazione:
 
@@ -43,7 +43,7 @@ Vi proponiamo una semplice ricetta, adatta anche a vegetariani, vegani,celiaci p
 
 6. Tagliate i pomodorini a metà, togliete i semi e disponete su una padella con poco olio ed un pizzico di sale sul dorso (si possono passare in forno a 180° o su fuoco) Quando sono passiti girateli, aggiungete un altro pizzico di sale e cuoceteli qualche altro minuto.
 7. Toglieteli da fuoco ed asciugateli con carta assorbente.
-8. Prendete la pasta scelta e unite in una ciotola capiente a ceci lessati, zucchine, melanzane e pomodorini. Mischiate tutto con un olio EVO e se volete aggiungete poche foglie di prezzemolo tritato.
+8. Prendete la pasta scelta e unite in una ciotola capiente a ceci lessati, zucchine, melanzane e pomodorini. Mischiate tutto con un olio EVO e se volete aggiungete poche foglie di prezzemolo tritato oppure basilico
 
 Servito freddo.
 
@@ -51,7 +51,7 @@ Servito freddo.
 * Consiglio questo condimeno con Strozzapreti Bianco-Verdi di Lodi pasta fresca in misura di 420gr se crudi o 720gr se scottati
 * Potete utilizzare anche strozzapreti monocolore.
 o semplice pasta a piacere anche senza glutine
-* I pomodorini possono essere utilizzati anche a crudo, sia gialli che rossi. Se particolarmente piccoli potete usarli anche interi.
+* I pomodorini possono essere utilizzati anche a crudo, sia gialli che rossi. Se particolarmente piccoli potete tenerli interi.
 * Se utilizzate ceci in barattolo, è bene **sbianchirli** prima dell'uso: toglierete eventuali additivi e sarà più facile levare le pellicine se non le gradite.
 * **Raffreddate** velocemente sia pasta che verdure.
 

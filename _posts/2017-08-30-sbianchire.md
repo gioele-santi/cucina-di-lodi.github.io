@@ -6,12 +6,6 @@ date:   2017-08-30 00:30:00 +0100
 categories: dizionario
 tags: verdure
 
-images:
-  - url: /img/placeholder.jpg
-    alt: Sbianchitura
-   
-image_credits: Foto di Gionata Santi</a>
- 
 ---
 
 #### Cos'è?

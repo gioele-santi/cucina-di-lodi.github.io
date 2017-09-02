@@ -6,12 +6,6 @@ date:   2017-08-31 00:30:00 +0100
 categories: dizionario
 tags: verdure carne
 
-images:
-  - url: /img/placeholder.jpg
-    alt: Trifolatura
-   
-image_credits: Foto di Gionata Santi</a>
- 
 ---
 
 #### Cos'è?

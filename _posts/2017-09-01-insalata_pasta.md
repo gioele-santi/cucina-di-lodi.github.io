@@ -12,6 +12,8 @@ images:
    
 image_credits: Foto di Gionata Santi</a>
  
+published: false
+
 ---
 
 Vi proponiamo una semplice ricetta, adatta anche a vegetariani, vegani,celiaci per passare assieme i prossimi giorni di caldo estivo.

@@ -44,6 +44,14 @@ permalink: /prodotti/
                         {% else %}
                         <!-- Immagine non inserita -->
                     {% endif %}
+                    {% if post.images[1] != null %}
+                        <!-- Immagine inserita -->
+                        {% assign image = post.images[1] %}
+                            <br><br>
+                            <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
+                        {% else %}
+                        <!-- Immagine non inserita -->
+                    {% endif %}
                 </div>
             </div>
 
@@ -69,6 +77,14 @@ permalink: /prodotti/
                   {% if post.images[0] != null %}
                         <!-- Immagine inserita -->
                         {% assign image = post.images[0] %}
+                            <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
+                        {% else %}
+                        <!-- Immagine non inserita -->
+                    {% endif %}
+                    {% if post.images[1] != null %}
+                        <!-- Immagine inserita -->
+                        {% assign image = post.images[1] %}
+                            <br><br>
                             <img class="img-responsive img-rounded" src="{{ image.url }}" alt="{{ image.alt }}">
                         {% else %}
                         <!-- Immagine non inserita -->

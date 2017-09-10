@@ -30,6 +30,9 @@ collections:
 # Analytics
 google_analytics: UA-102813625-1
 
+#localizations
+languages: ["it", "en"]
+exclude_from_localizations: ["js", "img", "css", "font-awesome", "fonts", "icomoon"]
 
 # ----------------------- #
 #         Contacts        #

@@ -1,0 +1,49 @@
+global:
+  italian: Italiano
+  english: English
+  japanese: 日本語
+  copyright: All rights reserved.
+pages:
+  home: Home
+  blog: Blog
+  products: Products
+  courses: Courses
+  contacts: Contacts
+blog:
+  categories: Categories
+  tags: Tags
+  next: Next
+  previous: Previous
+  shareon: Share on
+  latest: Latest posts
+homepage:
+  next: Next
+  previous: Previous
+  highlight: Highlights
+  lastnews: Latest news
+months:
+  jan: January
+  feb: February
+  mar: March
+  apr: April
+  may: May
+  jun: June
+  jul: July
+  aug: August
+  sep: September
+  oct: October
+  nov: November
+  dec: December
+months_short:
+  jan: Jan
+  feb: Feb
+  mar: Mar
+  apr: Apr
+  may: May
+  jun: Jun
+  jul: Jul
+  aug: Aug
+  sep: Sep
+  oct: Oct
+  nov: Nov
+  dec: Dec

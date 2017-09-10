@@ -1,0 +1,50 @@
+global:
+  italian: Italiano
+  english: English
+  japanese: 日本語
+  copyright: Tutti i diritti riservati.
+pages:
+  home: Home
+  blog: Blog
+  products: Prodotti
+  courses: Corsi
+  contacts: Contatti
+blog:
+  categories: Categorie
+  tags: Tag
+  next: Recenti
+  previous: Precedenti
+  shareon: Condividi su
+  latest: Post recenti
+homepage:
+  next: Prossima
+  previous: Precedente
+  highlight: In evidenza
+  lastnews: Recenti
+months:
+  jan: Gennaio
+  feb: Febbraio
+  mar: Marzo
+  apr: Aprile
+  may: Maggio
+  jun: Giugno
+  jul: Luglio
+  aug: Agosto
+  sep: Settembre
+  oct: Ottobre 
+  nov: Novembre
+  dec: Dicembre
+months_short:
+  jan: Gen
+  feb: Feb
+  mar: Mar
+  apr: Apr
+  may: Mag
+  jun: Giu
+  jul: Lug
+  aug: Ago
+  sep: Set
+  oct: Ott
+  nov: Nov
+  dec: Dic
+  

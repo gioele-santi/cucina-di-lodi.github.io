@@ -24,23 +24,23 @@
         {% assign about_url = site.baseurl | append: '/contatti/' %}
           
         <li class="{% if page.url == home_url %} active{% endif %}">
-            <a href="{{ home_url }}" title="Home">Home</a>
+            <a href="{{ home_url }}" title="{% t pages.home %}">{% t pages.home %}</a>
         </li>
           
         <li class="{% if page.url == blog_url %} active{% endif %}">
-            <a href="{{ blog_url }}" title="Blog">Blog</a>
+            <a href="{{ blog_url }}" title="{% t pages.blog %}">{% t pages.blog %}</a>
         </li>
         
         <li class="{% if page.url == prod_url %} active{% endif %}">
-            <a href="{{ prod_url }}" title="Prodotti">Prodotti</a>
+            <a href="{{ prod_url }}" title="{% t pages.products %}">{% t pages.products %}</a>
         </li>
           
         <li class="{% if page.url == corsi_url %} active{% endif %}">
-            <a href="{{ corsi_url }}" title="Corsi">Corsi</a>
+            <a href="{{ corsi_url }}" title="{% t pages.courses %}">{% t pages.courses %}</a>
         </li>
           
         <li class="{% if page.url == about_url %} active{% endif %}">
-            <a href="{{ about_url }}" title="Contatti">Contatti</a>
+            <a href="{{ about_url }}" title="{% t pages.contacts %}">{% t pages.contacts %}</a>
         </li>
 
           

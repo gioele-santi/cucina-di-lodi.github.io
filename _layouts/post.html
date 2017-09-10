@@ -28,7 +28,7 @@ layout: blog
 {% include share-page.html %}
 
 <div class="related">
-  <h3>Post recenti</h3>
+  <h3>{% t blog.latest %}</h3>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>

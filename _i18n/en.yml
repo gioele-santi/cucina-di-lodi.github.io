@@ -10,6 +10,9 @@ pages:
   courses: Courses
   contacts: Contacts
 blog:
+  readmore: Keep reading
+  published: Published on
+  incat: in
   categories: Categories
   tags: Tags
   next: Next

@@ -1,5 +1,6 @@
 {% comment %} Generate localized date {% endcomment %}
-{% assign months = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
+{% assign month_keys = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec" | split: "|" %}
+{% assign months = site.translations[site.lang]["months"] %}
 
 {% assign _date = '' %}
 {% assign _cats = '' %}
@@ -22,12 +23,35 @@
 
 {% assign m = _date | date: "%-m" | minus: 1 %}
 {% assign day = _date | date: "%d" %}
-{% assign month = months[m] %}
+{% assign key = month_keys[m] %}
+{% assign month = months[key] %}
 {% assign year = _date | date: "%Y" %}
 
-<p><span class="post-date post-description">Pubblicato il {{ day }} {{ month }} {{ year }}
+<p><span class="post-date post-description">{% t blog.published %} 
+    
+    {% if site.lang == 'it' %}
+        {{ day }} {{ month }} {{ year }}
+    {% elsif site.lang == 'en' %}
+        {{ month }} {{ day }}<sup>
+        {% if day == '1' or day == '21' or day == '31' %}
+            st
+        {% elsif day == '2' or day == '22' %}
+            nd
+        {% elsif day == '3' or day == '23' %}
+            rd
+        {% else %}
+            th
+        {% endif %}
+        </sup> {{ year }}
+    {% elsif site.lang == 'jp' %}
+        {{ year }}年{{ m }}月{{ day }}日
+    {% else %}
+        {{ year }}-{{ m }}-{{ day }}  
+    {% endif %}
+    
+    
         
-        {% if _cats[0] != null %} &nbsp in: &nbsp
+        {% if _cats[0] != null %} &nbsp {% t blog.incat %}: &nbsp
             {% for category in _cats %}
                 <a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}" title="{{ category }}">{{ category }}</a>
             {% endfor %}

@@ -1,5 +1,6 @@
 {% comment %} Generate localized date {% endcomment %}
-{% assign short_months = "Gen|Feb|Mar|Apr|Mag|Giu|Lug|Ago|Set|Ott|Nov|Dic" | split: "|" %}
+{% assign month_keys = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec" | split: "|" %}
+{% assign months = site.translations[site.lang]["months_short"] %}
 
 <h4 class="post-description-short">
 
@@ -9,10 +10,33 @@
     
     {% assign m = post.date | date: "%-m" | minus: 1 %}
     {% assign day = post.date | date: "%d" %}
-    {% assign month = short_months[m] %}
+    {% assign key = month_keys[m] %}
+    {% assign month = months[key] %}
     {% assign year = post.date | date: "%Y" %}
 </h4>
-<small class="post-date post-description">{{ day }} {{ month }} {{ year }}</small>
+<small class="post-date post-description">
+    {% if site.lang == 'it' %}
+        {{ day }} {{ month }} {{ year }}
+    {% elsif site.lang == 'en' %}
+        {{ month }} {{ day }}<sup>
+        {% if day == '1' or day == '21' or day == '31' %}
+            st
+        {% elsif day == '2' or day == '22' %}
+            nd
+        {% elsif day == '3' or day == '23' %}
+            rd
+        {% else %}
+            th
+        {% endif %}
+        </sup> {{ year }}
+    {% elsif site.lang == 'jp' %}
+        {{ year }}年{{ m }}月{{ day }}日
+    {% else %}
+        {{ year }}-{{ m }}-{{ day }}  
+    {% endif %}
+
+
+</small>
 <p>{{ post.excerpt }}</p>
     
 

@@ -32,11 +32,11 @@
         </li>
         
         <li class="{% if page.url == prod_url %} active{% endif %}">
-            <a href="{{ prod_url }}" title="{% t pages.products %}">{% t pages.products %}</a>
+            <a href="{% tl products %}" title="{% t pages.products %}">{% t pages.products %}</a>
         </li>
           
         <li class="{% if page.url == corsi_url %} active{% endif %}">
-            <a href="{{ corsi_url }}" title="{% t pages.courses %}">{% t pages.courses %}</a>
+            <a href="{% tl courses %}" title="{% t pages.courses %}">{% t pages.courses %}</a>
         </li>
           
         <li class="{% if page.url == about_url %} active{% endif %}">

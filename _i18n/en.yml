@@ -3,6 +3,8 @@ global:
   english: English
   japanese: 日本語
   copyright: All rights reserved.
+  sitename: Lodi's kitchen
+  description: Lodi's Kitchen comes from Lodi Pasta Fresca 30 years experience. Beside producing and selling typical italian products, we also organize cooking classes.
 pages:
   home: Home
   blog: Blog

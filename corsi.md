@@ -1,22 +1,23 @@
 ---
 layout: page
-title: Corsi
+title: pages.courses
+
+namespace: courses
+
 permalink: /corsi/
+permalink_it: /corsi/
+permalink_en: /courses/
+permalink_jp: /kougi/
 ---
 
 <!-- Introduzione -->
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <br/><br/>
-          <h2>Corsi di cucina</h2>
-          <br/>
-            <p>Cucinare non è solo sminuzzare gli ingredienti, metterli in una padella e stare attenti a non bruciarli.</p>
-            <p>Cucinare è anche saper scegliere gli ingredienti, maneggiarli con cura ed abbinarli al meglio.</p>
-            <p>Comprendere le tecniche di cottura per esaltare i sapori.</p>
-            <p>Ma anche capire meglio quello che mangiamo tutti i giorni, scegliere alternative più salutari e perché no risparmiare sulla spesa ma senza rinunciare alla qualità.</p>
+            <br/><br/>
+            {% tf courses_presentation.md %}
             <br/>
-          </div>
+        </div>
     </div>
 </section>
 

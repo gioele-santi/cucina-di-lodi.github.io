@@ -3,6 +3,8 @@ global:
   english: English
   japanese: 日本語
   copyright: Tutti i diritti riservati.
+  sitename: La Cucina di Lodi
+  description: La Cucina di Lodi nasce dall’esperienza trentennale di Lodi Pasta Fresca. Oltre a preparare e vendere prodotti tipici italiani, organizza corsi di cucina.
 pages:
   home: Home
   blog: Blog

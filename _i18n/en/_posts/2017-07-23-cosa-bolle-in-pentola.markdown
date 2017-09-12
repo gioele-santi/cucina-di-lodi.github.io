@@ -11,7 +11,6 @@ images:
     alt: Boiling pot
    
 image_credits: Fonte <a href="https://stocksnap.io/photo/IZYP5AYVUD">stocksnap.io</a>
- 
 ---
 Lodi Pasta Fresca turns 30 years old. This is an important year of renovation. 
 

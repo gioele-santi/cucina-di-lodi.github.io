@@ -26,6 +26,13 @@ homepage:
   previous: Previous
   highlight: Highlights
   lastnews: Latest news
+about:
+  information: Information
+  contacts: Contacts
+  timetable: Timetable
+  days: from Tuesday to Saturday
+  morning: from 8&#58;30 to 12&#58;30
+  afternoon: from 15&#58;30 to 19&#58;30
 months:
   jan: January
   feb: February

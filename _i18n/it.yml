@@ -26,6 +26,13 @@ homepage:
   previous: Precedente
   highlight: In evidenza
   lastnews: Recenti
+about:
+  information: Informazioni
+  contacts: Recapiti
+  timetable: Orario
+  days: dal Martedì al Sabato
+  morning: dalle 8&#58;30 alle 12&#58;30
+  afternoon: dalle 15&#58;30 alle 19&#58;30
 months:
   jan: Gennaio
   feb: Febbraio

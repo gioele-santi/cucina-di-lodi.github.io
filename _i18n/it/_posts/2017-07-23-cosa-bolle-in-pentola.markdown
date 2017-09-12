@@ -11,7 +11,6 @@ images:
     alt: Pentola che sbuffa
    
 image_credits: Fonte <a href="https://stocksnap.io/photo/IZYP5AYVUD">stocksnap.io</a>
- 
 ---
 Lodi Pasta Fresca compie 30 anni. È un anno importante fatto di rinnovamenti ma anche di conferme.
 

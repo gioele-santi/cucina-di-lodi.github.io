@@ -1,25 +1,26 @@
 ---
 layout: post
-title:  "Insalata di rosole"
+title:  "Papaver rhoeas salad"
 date:   2017-07-29 00:30:00 +0100
 
-categories: ricette
-tags: erbe rosole
+categories: recipes
+tags: herbs papaver-rhoeas
 
 images:
   - url: /img/post/rosoli.jpg
-    alt: Rosoli raccolti e puliti
+    alt: Papaver rhoeas
    
-image_credits: Foto di Gionata Santi</a>
+image_credits: Photo by Gionata Santi</a>
  
 ---
-Per inaugurare il mio blog di cucina, vi presento una semplice ricettina a base di erbe spontanee, in particolare il papavero, conosciuto anche come rosole, rosolaccio o paparino.
+
+I will launch my cooking blog introducing you a very simple recipe with spontaneus herbs, particularly red poppy, also known ass papaver rhoeas (or rosola in Italian).
 
 <!--continua-->
 
 Le piante di papavero sono facili da trovare in primavera ma anche in inverno.
 
-**Insalata di rosole:**
+**Papaver rhoeas salad:**
 
 *Utilizzare i ciuffetti di rosole più piccoli e teneri.*
 50 g. di rosole già pulite e lavate per ogni commensale 
@@ -30,6 +31,6 @@ Le piante di papavero sono facili da trovare in primavera ma anche in inverno.
 In una ciotola condire le erbette con olio EVO e mischiare bene, poi regolare di sale e aggiungere alcune gocce di aceto Balsamico Tradizionale. 
 
 <!-- Immagine qui -->
-![insalata di rosole pronta](/img/post/insalata.jpg){: .img-responsive .img-rounded}
+![Papaver rhoeas salad is ready](/img/post/insalata.jpg){: .img-responsive .img-rounded}
 
-*Nota: questo piatto si presta ad essere servito come antipasto anche in occasioni eleganti.*
+*Note: questo piatto si presta ad essere servito come antipasto anche in occasioni eleganti.*

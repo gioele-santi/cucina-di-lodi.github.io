@@ -1,9 +1,7 @@
 ## Our products
 <br/>
-I nostri prodotti sono frutto di un’appassionata ricerca e riscoperta delle **ricette e delle forme tradizionali**. Ma i sapori cambiano di famiglia in famiglia e così anche le nostre ricette sono **state adattate e personalizzate** per trasmettere a più persone possibile il ricordo e l’emozione dei piatti di una volta.  
+Our products are the result of passionate research and rediscover of **traditional recipes and shapes**. But each household has its own interpretation of recipes therefore also our recipes were **adapted and customized** to convey the memories and the feelings of old times recipes to as many people as possible.
+ 
+Pasta is **exclusively handmade** and we pay the utmost attention to the choice of the **highest quality ingredients** but also to **hygiene and health**.
 
-
-Le produzione è **rigorosamente manuale** e viene prestata la massima attenzione sia nella scelta di **materie prime di massima qualità**, ma anche all’**igiene ed alla salute**.  
-
-
-E poi ... sono anche buoni! Come ci dicono i clienti da 30 anni.
+And ... they are also good! As our customer said for 30 years.

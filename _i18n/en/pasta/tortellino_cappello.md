@@ -1,7 +1,7 @@
-I tortellini a cappello hanno una forma di ispirazione **Romagnola**. Il ripieno di carne, ricco e profumato, è avvolto sempre in un quadratino di sfoglia, ma è piegato su se stesso una volta sola. I due lembi inferiori sono appoggiati l'uno sull'altro e si chiudono formando una seconda punta.
+Tortellini a cappello are inspired from **Romagna tradition**. The filling is rich and fragrant and wrapped in a small square of pasta that is folded only one time and the two ends are overlapped so that it forms two pointy ends.
 
-Le due punte conferiscono la caratteristica  forma detta a **cappello del prete**, da cui il nome.
+These two pointy ends, remind of a traditional **priest hat**, hence the name (*cappello* means hat in Italian).
 
-Come i *tortellini* nascono per il brodo ma si possono condire a piacere.
+As *tortellini* they are meant to be served in broth but can be served with any type of broth.
 
-A differenza dei *tortellini* rimangono **molto più teneri**.
+Compared to *tortellini* they are more **tender**.

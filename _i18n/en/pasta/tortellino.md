@@ -1,7 +1,7 @@
-I tortellini sono un tipo di pasta ripiena di ispirazione **Emiliana**. Il ripieno di **carne cotta** è racchiuso ben stretto in un piccolo quadrato di sfoglia ripiegato su se stesso due volte e chiuso  allacciando i due lembi alla base attorno al dito, lasciando la punta bella dritta.
+Tortellini is a type of pasta inspired from **Emilia tradition**. The filling is made with **cooked meat** and it is wrapped in a small square of pasta, that is folded two times and then closed by joining two ends forming a ring around the finger and leaving a straight tip.
 
-Hanno la forma di un abbraccio, ma vengono anche chiamati **ombelico di Venere** per via della forma sensuale.
+They have the shape of an hug but they are also called **Venus navel** because of they sensual shape.
 
-La tradizione li vuole cotti in brodo, ma la moda li ha arricchiti di sughi di ogni tipo: burro e parmigiano, panna, ragù, boscaiola...
+According to tradition they should be served in broth, but you can use any sauce: butter and parmesan, cream, meat sauce, mushrooms...
 
-Grazie alla loro forma rimangono **sempre al dente** anche dopo una cottura un pò prolungata.
+Because of their shape they always stay **al dente** even if you slightly overcook them.

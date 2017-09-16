@@ -9,6 +9,4 @@ images:
 
 ---
 
-Uova e farina, la base per **creare**
-la pasta migliore
-della nostra **tradizione**.
+{% tf courses/segreti_pasta.md %}

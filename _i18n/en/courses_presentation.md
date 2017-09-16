@@ -1,9 +1,9 @@
 ## Cooking classes
 <br/>
-Cucinare non è solo sminuzzare gli ingredienti, metterli in una padella e stare attenti a non bruciarli.
+Cooking does not consist only in cutting ingredients, putting them in a pan and being careful not to burn them.
 
-Cucinare è anche saper scegliere gli ingredienti, maneggiarli con cura ed abbinarli al meglio.
+Cooking is also choosing the ingredients, handling them with care and combining them in the best way.
 
-Comprendere le tecniche di cottura per esaltare i sapori.
+Understanding cooking techniques to bring out the flavors.
 
-Ma anche capire meglio quello che mangiamo tutti i giorni, scegliere alternative più salutari e perché no risparmiare sulla spesa ma senza rinunciare alla qualità.     
+But also understanding what we eat every day, choosing better alternatives and, why not, saving some money without giving up on quality.     

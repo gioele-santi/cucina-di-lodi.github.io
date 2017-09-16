@@ -1,3 +1,3 @@
 ## About us
 
-Lodi Pasta Fresca è stato fondato nel 1987 ed è attualmente il più longevo laboratorio di pasta artigianale nella Repubblica di San Marino.
+Lodi Pasta Fresca was established in 1987 and is currently the longest-running handmade fresh-pasta shop in San Marino Republic.

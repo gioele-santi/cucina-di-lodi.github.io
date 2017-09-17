@@ -1,5 +1,5 @@
 ---
-title: Cappelletti di formaggio
+title: pasta.cappelletti_formaggio
 
 sitemap: false
 

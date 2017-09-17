@@ -1,5 +1,5 @@
 ---
-title: Cappelletti
+title: pasta.cappelletti
 
 sitemap: false
 

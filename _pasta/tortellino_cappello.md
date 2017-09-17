@@ -1,5 +1,5 @@
 ---
-title: Tortellini a cappello
+title: pasta.tortellini_cappello
 
 sitemap: false
 

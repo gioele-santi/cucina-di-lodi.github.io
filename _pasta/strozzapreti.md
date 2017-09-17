@@ -1,5 +1,5 @@
 ---
-title: Strozzapreti
+title: pasta.strozzapreti
 
 sitemap: false
 

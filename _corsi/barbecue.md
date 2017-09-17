@@ -1,5 +1,5 @@
 ---
-title: Cucina al barbecue
+title: courses.barbecue
 
 sitemap: false
 

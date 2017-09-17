@@ -1,5 +1,5 @@
 ---
-title: Cucina casalinga
+title: courses.household
 
 sitemap: false
 

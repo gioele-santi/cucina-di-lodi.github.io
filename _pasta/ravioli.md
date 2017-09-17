@@ -1,5 +1,5 @@
 ---
-title: Ravioli di magro
+title: pasta.ravioli
 
 sitemap: false
 

@@ -1,5 +1,5 @@
 ---
-title: Coi bambini in cucina
+title: courses.kids
 
 sitemap: false
 

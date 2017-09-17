@@ -1,5 +1,5 @@
 ---
-title: I segreti della pasta
+title: courses.pasta
 
 sitemap: false
 

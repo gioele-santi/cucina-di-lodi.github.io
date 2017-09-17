@@ -33,6 +33,25 @@ about:
   days: from Tuesday to Saturday
   morning: from 8&#58;30 to 12&#58;30
   afternoon: from 15&#58;30 to 19&#58;30
+pasta:
+  cappelletti: Cappelletti
+  cappelletti_formaggio: Cheese cappelletti
+  cappellini_feste: Cappellini delle feste
+  ravioli: Light ravioli
+  strozzapreti: Strozzapreti
+  tortellini: Tortellini
+  tortellini_cappello: Tortellini a cappello
+  tagliatelle: Tagliatelle
+  stringhetti: Stringhetti
+  pappardelle: Pappardelle
+  lasagne: Lasagne
+  nidi: Nidi di rondine
+  cannelloni: Cannelloni
+courses:
+  barbecue: Barbecue
+  kids: Cooking with kids
+  household: Household cooking
+  pasta: Secrets of fresh pasta
 months:
   jan: January
   feb: February

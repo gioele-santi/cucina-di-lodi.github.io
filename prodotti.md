@@ -35,7 +35,7 @@ permalink_jp: /shokuhin/
                 <div class="col-lg-5 col-sm-6">
                     {% include separator_heading.html %}
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <h2 class="section-heading">{% t post.title %}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -72,7 +72,7 @@ permalink_jp: /shokuhin/
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     {% include separator_heading_reverse.html %}
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <h2 class="section-heading">{% t post.title %}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">

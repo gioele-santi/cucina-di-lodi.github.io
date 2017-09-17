@@ -1,5 +1,5 @@
 ---
-title: Tortellini
+title: pasta.tortellini
 
 sitemap: false
 

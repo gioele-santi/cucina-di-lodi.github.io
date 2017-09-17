@@ -48,7 +48,12 @@
         <!-- Language links -->
         {% for language in site.languages %}
             {% unless site.lang == language %}
+                {% if page.namespace %}
+                {% capture link %}{{page.namespace}} {{language}}{% endcapture %}
+                <li><a href="{% tl {{ link }} %}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                {% else %}
                 <li><a href="{{ site.url }}{% unless language == site.languages[0] %}/{{ language }}{% endunless %}{{ page.url | replace:'index.html',''}}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                {% endif %}
             {% endunless %}
         {% endfor %}
           

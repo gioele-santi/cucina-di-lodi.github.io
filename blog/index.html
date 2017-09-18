@@ -12,8 +12,8 @@ permalink: /blog/
         
         <div class="post">
             <h2 class="post-title">
-                <!-- <a href="{{ site.baseurl }}/{{ post.url }}"> -->
-              <a href="{{ post.url }}" title="{{ post.title }}">
+              {% capture post_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ post.url }}{% endcapture %} 
+              <a href="{{ post_url }}" title="{{ post.title }}">
                 {{ post.title }}
               </a>
             </h2>
@@ -29,7 +29,7 @@ permalink: /blog/
 
             {{ post.excerpt }}
             <br>
-            <a class="continue-button" href="{{ post.url }}" title="{% t blog.readmore %}">{% t blog.readmore %}</a>
+            <a class="continue-button" href="{{ post_url }}" title="{% t blog.readmore %}">{% t blog.readmore %}</a>
 
             {% unless forloop.last == true %}
 

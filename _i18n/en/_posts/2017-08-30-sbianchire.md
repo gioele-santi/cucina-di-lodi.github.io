@@ -1,26 +1,21 @@
 ---
 layout: post
-title:  "Sbianchire"
+title:  "To blanch"
 date:   2017-08-30 00:30:00 +0100
 
-categories: dizionario
-tags: verdure
+categories: dictionary
+tags: vegetables
 
 ---
 
-#### Cos'è?
-È una tecnica di *pre*-cottura che si utilizza per trattare gli alimenti durante la preparazione per altre ricette.
+#### What is it?
+It is a technique of *pre*-cooking used to prepare ingredients while making other recipes.
 
 <!--continua-->
 
-#### A cosa serve?
-Serve a *ripulire* gli alimenti, rimuovendo eventuali additivi ma anche un'indesiderato sapore amaro o aspro. Ma è anche utile per ammorbire le verdure, ad esempio per gli involtini( foglie di lattuga, di vite o di cavolo), o per facilitare la spellatura di pomodori,mandorle e noci.
+#### What is it good for?
+It is useful to *clean* the food, as it removes potential additives but also undesired bitter or sour tastes. But it also useful to soften vegetables (as an example you can soften lettuce, vine or cabbage leaves ro make rolls) or to ease the peeling of tomatoes, almonds, nuts...
 
-
-#### Come si fa?
-
-* *A caldo*: si porta a bollore allegro, abbondante acqua. Può essere pura o addizionata di  sale o aceto.
-Si immergono piccole quantità di alimento e quando l'acqua riprende il bollore, si scolano e si tuffano in acqua fredda addizionata con ghiaccio. A completo raffreddamento si scola e si può procedere all'utilizzo.
-* *A freddo*: si può fare ponendo l'alimento sotto acqua corrente per tempo prolungato, oppure si immerge il prodotto in una pentola di acqua fredda e solo dopo si porta lentamente a bollore. Quando l'acqua bolle, si scola l'alimento e si raffredda sempre in acqua e ghiaccio. Questo modo in particolare serve per ripulire carni ed ossa da impurità e sapori troppo forti.
-
-
+#### How do you do it?
+* *Hot*: Bring to a boil abundant water. You can use pure water or you can add salt or vinegar. Submerge the food a little at a time. When water boils again, strain the food and submerge in cold water with ice. When the food is completely cold you can strain it and use it in your recipe.
+* *Cold*: you can do it by placing the food under running water for a long time or you can submerge it in a pot of cold water and then bring it slowly to a boil. When water boils, strain the food and cool it down in ice and water. This method is especially useful to clean meat and bones from impurities and strong flavors.

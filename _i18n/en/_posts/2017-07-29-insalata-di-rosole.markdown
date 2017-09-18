@@ -18,19 +18,20 @@ I will launch my cooking blog introducing you a very simple recipe with spontane
 
 <!--continua-->
 
-Le piante di papavero sono facili da trovare in primavera ma anche in inverno.
+Poppies are easy to spot during spring but also in winter.
 
 **Papaver rhoeas salad:**
 
-*Utilizzare i ciuffetti di rosole più piccoli e teneri.*
-50 g. di rosole già pulite e lavate per ogni commensale 
-* olio EVO 
-* aceto Balsamico Tradizionale di 
-* Modena 
-* sale 
-In una ciotola condire le erbette con olio EVO e mischiare bene, poi regolare di sale e aggiungere alcune gocce di aceto Balsamico Tradizionale. 
+*Use only the smallest and most tender poppies.*
+
+* 50 g. of clean papaver rhoeas for each person
+* extra virgin olive oil 
+* traditional balsamic vinegar of Modena
+* salt
+
+Put the herbs in bowl and mix thoroughly with olive oil, then add salt and some drops of traditional balsamic vinegar.
 
 <!-- Immagine qui -->
 ![Papaver rhoeas salad is ready](/img/post/insalata.jpg){: .img-responsive .img-rounded}
 
-*Note: questo piatto si presta ad essere servito come antipasto anche in occasioni eleganti.*
+*Note: this dish is appropriate as an appetizer in special events and fancy dinners.*

@@ -85,9 +85,9 @@ layout: page
         {% for article in site.evidenza %}
             <h2 class="hidden"> {{article.title}} </h2>
             <div class="col-sm-6">
-                <a href="{{article.link}}" title="{{article.title}}">
+                <a href="{% tl {{article.namespace}} %}" title="{% t {{article.title}} %}">
                     <img src="{{article.images[0].url}}" class="img-responsive img-rounded" style="width:100%" alt="{{article.images[0].alt}}">
-                    <p>{{article.title}}</p>
+                    <p>{% t {{article.title}} %}</p>
                 </a>
             </div>
         

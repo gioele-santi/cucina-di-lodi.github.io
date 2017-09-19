@@ -37,9 +37,9 @@ I intorduce you a simple recipe, suitable also for vegetarians, vegans but also 
 3. Sauté the zucchini in a pan. Use little oil and [trifolare](/en/2017/08/30/trifolare.html).
 4. Once zucchini are are done, add salt and pepper and put them on a paper towel to remove excess oil.
 
-5. Repeat the same for eggplants: remove the inner part, dice and sauté. Then put on paper towel to remove excess oil.
+5. Repeat the same for eggplants: remove the inner part, dice and [sauté](/en/2017/08/30/trifolare.html). Then put on paper towel to remove excess oil.
 
-6. Cut the tomatoes in half, remove the seeds and put in a pan with little oil and a pinch of salt /you can also bake them in the oven at 180° Celsius). When they are dried, turn them on the other side, add another pinch of salt and cook for another couple of minutes.
+6. Cut the tomatoes in half, remove the seeds and put in a pan with little oil and a pinch of salt (you can also bake them in the oven at 180° Celsius). When they are dried, turn them on the other side, add another pinch of salt and cook for another couple of minutes.
 
 7. Take tomatoes out of the pan and place them on a paper towel to remove excess oil.
 

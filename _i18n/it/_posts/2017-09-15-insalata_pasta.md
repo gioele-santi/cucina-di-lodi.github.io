@@ -34,7 +34,7 @@ Vi proponiamo una semplice ricetta, adatta anche a vegetariani, vegani,celiaci p
 
 1. Tagliate le zucchine in 4 parti e togliete la parte interna morbida (anima).
 2. Riducete le parti esterne delle zucchine, prima a strisce e poi a cubetti di circa 1cm di lato.
-3. Saltate in padella le zucchine così ottenute. Usate poco olio e **trifolate** a fuoco medio fino a cottura.
+3. Saltate in padella le zucchine così ottenute. Usate poco olio e [trifolate](/2017/08/30/trifolare.html) a fuoco medio fino a cottura.
 4. Terminata la cottura, regolate con sale e pepe, poi appoggiate le zucchine su carta assorbente per togliere l'unto in eccesso.
 
 5. Ripetete la stessa operazione con le melanzane: eliminate l'anima,riducete in una dadolata e [trifolate](/2017/08/30/trifolare.html) in padella, regolate di sale e pepe,appoggiate su carta assorbente a ridure l'unto.

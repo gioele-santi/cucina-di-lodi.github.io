@@ -20,7 +20,8 @@
         {% capture page_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ page.url | replace:'index.html',''}}{% endcapture %}  
         
         {% assign home_url = site.baseurl | append: '/' %}
-        {% capture blog_url %}{% tl blog %}{% endcapture %}
+        {% capture blog_url %}{{site.baseurl}}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}/blog/{% endcapture %}
+        {% comment %}{% capture blog_url %}{% tl blog %}{% endcapture %}{% endcomment %}
         {% capture prod_url %}{% tl products %}{% endcapture %}
         {% capture corsi_url %}{% tl courses %}{% endcapture %}
         {% capture about_url %}{% tl contacts %}{% endcapture %}
@@ -48,11 +49,11 @@
         <!-- Language links -->
         {% for language in site.languages %}
             {% unless site.lang == language %}
-                {% if page.namespace %}
-                {% capture link %}{{page.namespace}} {{language}}{% endcapture %}
-                <li><a href="{% tl {{ link }} %}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                {% if page.namespace and page.namespace != 'blog' %}
+                    {% capture link %}{{page.namespace}} {{language}}{% endcapture %}
+                    <li><a href="{% tl {{ link }} %}"><span class="lang-sm" lang="{{language}}"></span></a></li>
                 {% else %}
-                <li><a href="{{ site.url }}{% unless language == site.languages[0] %}/{{ language }}{% endunless %}{{ page.url | replace:'index.html',''}}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                    <li><a href="{{ site.url }}{% unless language == site.languages[0] %}/{{ language }}{% endunless %}{{ page.url | replace:'index.html',''}}"><span class="lang-sm" lang="{{language}}"></span></a></li>
                 {% endif %}
             {% endunless %}
         {% endfor %}

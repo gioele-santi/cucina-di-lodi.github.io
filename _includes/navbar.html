@@ -20,7 +20,8 @@
         {% capture page_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ page.url | replace:'index.html',''}}{% endcapture %}  
         
         {% assign home_url = site.baseurl | append: '/' %}
-        {% capture blog_url %}{{site.baseurl}}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}/blog/{% endcapture %}
+        {% assign blog_url = site.baseurl | append: '/blog/' %}
+        {% comment %}{% capture blog_url %}{{site.baseurl}}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}/blog/{% endcapture %}{% endcomment %}
         {% comment %}{% capture blog_url %}{% tl blog %}{% endcapture %}{% endcomment %}
         {% capture prod_url %}{% tl products %}{% endcapture %}
         {% capture corsi_url %}{% tl courses %}{% endcapture %}

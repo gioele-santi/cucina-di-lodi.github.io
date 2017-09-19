@@ -34,7 +34,7 @@ I intorduce you a simple recipe, suitable also for vegetarians, vegans but also 
 
 1. Cut the zucchini in 4 parts and remove the inner soft part.
 2. Dice the external part of zucchini (about 1 cm).
-3. Sauté the zucchini in a pan. Use little oil and **trifolare**.
+3. Sauté the zucchini in a pan. Use little oil and [trifolare](/en/2017/08/30/trifolare.html).
 4. Once zucchini are are done, add salt and pepper and put them on a paper towel to remove excess oil.
 
 5. Repeat the same for eggplants: remove the inner part, dice and sauté. Then put on paper towel to remove excess oil.
@@ -53,7 +53,7 @@ Serve cold.
 * I suggest to make this salad with *Lodi Pasta Fresca* White Green Strozzapreti. 420 grams if still raw or 720 grams if already cooked.
 * You can also use one color strozzapreti or another kind of durum pasta or also gluten-free pasta.
 * You can also use raw tomatoes, both yellow and red ones are good. If they are very small you can avoid cutting them.
-* If you use canned chickpeas, it is better to **blanch** them before use: it will remove additives and it will be easier to peel them.
+* If you use canned chickpeas, it is better to [blanch](/en/2017/08/29/sbianchire) them before use: it will remove additives and it will be easier to peel them.
 * Quickly **chill** both pasta and vegetables.
 
 

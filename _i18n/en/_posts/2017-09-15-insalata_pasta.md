@@ -11,8 +11,6 @@ images:
     alt: Pasta salad
    
 image_credits: Foto di Gionata Santi</a>
- 
-published: false
 
 ---
 

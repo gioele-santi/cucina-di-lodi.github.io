@@ -1,5 +1,6 @@
 {% comment %} Generate localized date {% endcomment %}
-{% assign months = "Gennaio|Febbraio|Marzo|Aprile|Maggio|Giugno|Luglio|Agosto|Settembre|Ottobre|Novembre|Dicembre" | split: "|" %}
+{% assign month_keys = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec" | split: "|" %}
+{% assign months = site.translations[site.lang]["months"] %}
 
 {% assign _date = '' %}
 {% assign _cats = '' %}
@@ -22,12 +23,12 @@
 
 {% assign m = _date | date: "%-m" | minus: 1 %}
 {% assign day = _date | date: "%d" %}
-{% assign month = months[m] %}
+{% assign key = month_keys[m] %}
+{% assign month = months[key] %}
 {% assign year = _date | date: "%Y" %}
 
-<p><span class="post-date post-description">Pubblicato il {{ day }} {{ month }} {{ year }}
-        
-        {% if _cats[0] != null %} &nbsp in: &nbsp
+<p><span class="post-date post-description">{% t blog.published %} {% tf date_format.html %}
+        {% if _cats[0] != null %} &nbsp {% t blog.incat %}: &nbsp
             {% for category in _cats %}
                 <a class="category-button" href="{{ site.baseurl }}/category/#{{ category | slugify }}" title="{{ category }}">{{ category }}</a>
             {% endfor %}

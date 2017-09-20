@@ -17,32 +17,47 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         
+        {% capture page_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ page.url | replace:'index.html',''}}{% endcapture %}  
+        
         {% assign home_url = site.baseurl | append: '/' %}
         {% assign blog_url = site.baseurl | append: '/blog/' %}
-        {% assign prod_url = site.baseurl | append: '/prodotti/' %}
-        {% assign corsi_url = site.baseurl | append: '/corsi/' %}
-        {% assign about_url = site.baseurl | append: '/contatti/' %}
+        {% comment %}{% capture blog_url %}{{site.baseurl}}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}/blog/{% endcapture %}{% endcomment %}
+        {% comment %}{% capture blog_url %}{% tl blog %}{% endcapture %}{% endcomment %}
+        {% capture prod_url %}{% tl products %}{% endcapture %}
+        {% capture corsi_url %}{% tl courses %}{% endcapture %}
+        {% capture about_url %}{% tl contacts %}{% endcapture %}
           
-        <li class="{% if page.url == home_url %} active{% endif %}">
-            <a href="{{ home_url }}" title="Home">Home</a>
+        <li class="{% if page_url == home_url %} active{% endif %}">
+            <a href="{{ home_url }}" title="{% t pages.home %}">{% t pages.home %}</a>
         </li>
           
-        <li class="{% if page.url == blog_url %} active{% endif %}">
-            <a href="{{ blog_url }}" title="Blog">Blog</a>
+        <li class="{% if page_url == blog_url %} active{% endif %}">
+            <a href="{{ blog_url }}" title="{% t pages.blog %}">{% t pages.blog %}</a>
         </li>
         
-        <li class="{% if page.url == prod_url %} active{% endif %}">
-            <a href="{{ prod_url }}" title="Prodotti">Prodotti</a>
+        <li class="{% if page_url == prod_url %} active{% endif %}">
+            <a href="{{prod_url}}" title="{% t pages.products %}">{% t pages.products %}</a>
         </li>
           
-        <li class="{% if page.url == corsi_url %} active{% endif %}">
-            <a href="{{ corsi_url }}" title="Corsi">Corsi</a>
+        <li class="{% if page_url == corsi_url %} active{% endif %}">
+            <a href="{% tl courses %}" title="{% t pages.courses %}">{% t pages.courses %}</a>
         </li>
           
-        <li class="{% if page.url == about_url %} active{% endif %}">
-            <a href="{{ about_url }}" title="Contatti">Contatti</a>
+        <li class="{% if page_url == about_url %} active{% endif %}">
+            <a href="{{ about_url }}" title="{% t pages.contacts %}">{% t pages.contacts %}</a>
         </li>
-
+          
+        <!-- Language links -->
+        {% for language in site.languages %}
+            {% unless site.lang == language %}
+                {% if page.namespace and page.namespace != 'blog' %}
+                    {% capture link %}{{page.namespace}} {{language}}{% endcapture %}
+                    <li><a href="{% tl {{ link }} %}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                {% else %}
+                    <li><a href="{{ site.url }}{% unless language == site.languages[0] %}/{{ language }}{% endunless %}{{ page.url | replace:'index.html',''}}"><span class="lang-sm" lang="{{language}}"></span></a></li>
+                {% endif %}
+            {% endunless %}
+        {% endfor %}
           
         {% for social in site.social %}
             <li class="visible-xs">
@@ -51,6 +66,7 @@
         {% endfor %}
           
       </ul>
+        
 <!--
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>

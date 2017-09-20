@@ -1,14 +1,22 @@
 ---
 layout: blog
-title: Blog
+title: pages.blog
+
+namespace: blog
+
+permalink: /blog/
+
+pagination:
+  enabled: true
+
 ---
 
     {% for post in paginator.posts %}
         
         <div class="post">
             <h2 class="post-title">
-                <!-- <a href="{{ site.baseurl }}/{{ post.url }}"> -->
-              <a href="{{ post.url }}" title="{{ post.title }}">
+              {% capture post_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ post.url }}{% endcapture %} 
+              <a href="{{ post_url }}" title="{{ post.title }}">
                 {{ post.title }}
               </a>
             </h2>
@@ -24,7 +32,7 @@ title: Blog
 
             {{ post.excerpt }}
             <br>
-            <a class="continue-button" href="{{ post.url }}" title="Continua a leggere">Continua a leggere</a>
+            <a class="continue-button" href="{{ post_url }}" title="{% t blog.readmore %}">{% t blog.readmore %}</a>
 
             {% unless forloop.last == true %}
 
@@ -44,11 +52,11 @@ title: Blog
         <ul class="pager">
             {% if paginator.next_page %}
               <li class="previous">
-                  <a href="{{paginator.next_page_path}}" title="Precedenti">Precedenti</a>
+                  <a href="{{paginator.next_page_path}}" title="{% t blog.previous %}">{% t blog.previous %}</a>
               </li>
             {% else %}
               <li class="previous disabled">
-                  <a title="Precedenti">Precedenti</a>
+                  <a title="{% t blog.previous %}">{% t blog.previous %}</a>
               </li>
             {% endif %}
               
@@ -56,16 +64,16 @@ title: Blog
             {% if paginator.previous_page %}
                 {% if paginator.page == 2 %}
                     <li class="next">
-                        <a href="{{ site.baseurl }}/blog/" title="Recenti">Recenti</a>
+                        <a href="{{ site.baseurl }}/blog/" title="{% t blog.next %}">{% t blog.next %}</a>
                     </li>
                 {% else %}
                     <li class="next">
-                        <a href="{{paginator.previous_page_path}}" title="Recenti">Recenti</a>
+                        <a href="{{paginator.previous_page_path}}" title="{% t blog.next %}">{% t blog.next %}</a>
                     </li>
                 {% endif %}
             {% else %}
                 <li class="next disabled">
-                        <a title="Recenti">Recenti</a>
+                        <a title="{% t blog.next %}">{% t blog.next %}</a>
                     </li>
             {% endif %}
                

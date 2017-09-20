@@ -1,0 +1,81 @@
+global:
+  italian: Italiano
+  english: English
+  japanese: 日本語
+  copyright: Tutti i diritti riservati.
+  sitename: La Cucina di Lodi
+  description: La Cucina di Lodi nasce dall’esperienza trentennale di Lodi Pasta Fresca. Oltre a preparare e vendere prodotti tipici italiani, organizza corsi di cucina.
+pages:
+  home: Home
+  blog: Blog
+  products: Prodotti
+  courses: Corsi
+  contacts: Contatti
+blog:
+  readmore: Continua a leggere
+  published: Pubblicato il
+  incat: in
+  categories: Categorie
+  tags: Tag
+  next: Recenti
+  previous: Precedenti
+  shareon: Condividi su
+  latest: Post recenti
+homepage:
+  next: Prossima
+  previous: Precedente
+  highlight: In evidenza
+  lastnews: Recenti
+about:
+  information: Informazioni
+  contacts: Recapiti
+  timetable: Orario
+  days: dal Martedì al Sabato
+  morning: dalle 8&#58;30 alle 12&#58;30
+  afternoon: dalle 15&#58;30 alle 19&#58;30
+pasta:
+  cappelletti: Cappelletti
+  cappelletti_formaggio: Cappelletti di formaggio
+  cappellini_feste: Cappellini delle feste
+  ravioli: Ravioli di magro
+  strozzapreti: Strozzapreti
+  tortellini: Tortellini
+  tortellini_cappello: Tortellini a cappello
+  tagliatelle: Tagliatelle
+  stringhetti: Stringhetti
+  pappardelle: Pappardelle
+  lasagne: Lasagne
+  nidi: Nidi di rondine
+  cannelloni: Cannelloni
+courses:
+  barbecue: Cucina al barbecue
+  kids: Coi bambini in cucina
+  household: Cucina casalinga
+  pasta: I segreti della pasta
+months:
+  jan: Gennaio
+  feb: Febbraio
+  mar: Marzo
+  apr: Aprile
+  may: Maggio
+  jun: Giugno
+  jul: Luglio
+  aug: Agosto
+  sep: Settembre
+  oct: Ottobre 
+  nov: Novembre
+  dec: Dicembre
+months_short:
+  jan: Gen
+  feb: Feb
+  mar: Mar
+  apr: Apr
+  may: Mag
+  jun: Giu
+  jul: Lug
+  aug: Ago
+  sep: Set
+  oct: Ott
+  nov: Nov
+  dec: Dic
+  

@@ -1,5 +1,5 @@
 ---
-title: I segreti della pasta
+title: courses.pasta
 
 sitemap: false
 
@@ -9,6 +9,4 @@ images:
 
 ---
 
-Uova e farina, la base per **creare**
-la pasta migliore
-della nostra **tradizione**.
+{% tf courses/segreti_pasta.md %}

@@ -1,5 +1,4 @@
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,43 +13,46 @@
         <link href="{{ site.baseurl }}/css/condensed.min.css" rel="stylesheet">
     <![endif]-->
     
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-theme.min.css" media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+    <link rel="stylesheet" href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl_root }}' media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+    <link rel="stylesheet" href='{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl_root }}' media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/condensed.min.css" media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
+    <link rel="stylesheet" href='{{ "/css/condensed.min.css" | prepend: site.baseurl_root }}' media="none" onload="if(media!=&#39;all&#39;)media=&#39;all&#39;">
 
     <noscript>
-        <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
-        <link href="{{ site.baseurl }}/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href='{{ "/css/bootstrap.min.css" | prepend: site.baseurl_root }}' rel="stylesheet">
+        <link href='{{ "/css/bootstrap-theme.min.css" | prepend: site.baseurl_root }}' rel="stylesheet">
         <!-- Custom CSS -->
-        <link href="{{ site.baseurl }}/css/condensed.min.css" rel="stylesheet">
+        <link href='{{ "/css/condensed.min.css" | prepend: site.baseurl_root }}' rel="stylesheet">
     </noscript>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+    <script src='{{ "/js/bootstrap.min.js" | prepend: site.baseurl_root }}'></script>
 
     <!-- Custom Fonts -->
-    <link href="{{ site.baseurl }}/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="{{ site.baseurl }}/icomoon/style.css" rel="stylesheet" type="text/css">
+    <link href='{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl_root }}' rel="stylesheet" type="text/css">
+    <link href='{{ "/icomoon/style.css" | prepend: site.baseurl_root }}' rel="stylesheet" type="text/css">
+    {% comment %}
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    {% endcomment %}
+    <link href='{{ "/css/googlefont.css" | prepend: site.baseurl_root }}' rel="stylesheet">
+    <link href='{{ "/css/languages.min.css" | prepend: site.baseurl_root }}' rel="stylesheet">
 
     <!--[if lt IE 9]> <![endif]-->
     
     <!--[if IE]>
-        <script src="{{ site.baseurl }}/js/html5shiv.js"></script>
-        <script src="{{ site.baseurl }}/js/respond.min.js"></script>
+        <script src='{{ "/js/html5shiv.js" | prepend: site.baseurl_root }}'></script>
+        <script src='{{ "/js/respond.min.js" | prepend: site.baseurl_root }}'></script>
 
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    {% seo %}
-    
-    {% include twitter_card.html %}
-    
-    <meta property="og:image" content="{{ site.url }}{% if page.images[0] != null %}{{ page.images[0].url }}{% else %}/img/placeholder.jpg{% endif %}" />
+
+    {% include seo_localized.html %}
     
     {% if site.google_analytics and jekyll.environment == 'development' %}
         {% include analytics.html %}
     {% endif %}
+    
+    
     
 </head>

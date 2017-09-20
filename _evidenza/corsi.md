@@ -1,10 +1,10 @@
 ---
-title: Corsi
+title: pages.courses
 
 images:
   - url: /img/evidenza/cappellini.jpg
     alt: corsi
     
-link: /corsi/
+namespace: courses
 
 ---

@@ -1,15 +1,20 @@
 {% comment %} Generate localized date {% endcomment %}
-{% assign short_months = "Gen|Feb|Mar|Apr|Mag|Giu|Lug|Ago|Set|Ott|Nov|Dic" | split: "|" %}
+{% assign month_keys = "jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec" | split: "|" %}
+{% assign months = site.translations[site.lang]["months_short"] %}
 
 <h4 class="post-description-short">
 
-    <a href="{{ post.url }}" title="{{ post.title }}">
+    {% capture post_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ post.url }}{% endcapture %} 
+    <a href="{{ post_url }}" title="{{ post.title }}">
         {{ post.title }}
     </a>
     {% assign m = post.date | date: "%-m" | minus: 1 %}
     {% assign day = post.date | date: "%d" %}
-    {% assign month = short_months[m] %}
+    {% assign key = month_keys[m] %}
+    {% assign month = months[key] %}
     {% assign year = post.date | date: "%Y" %}
-    <small class="post-date post-description"> - {{ day }} {{ month }} {{ year }}</small>
+    <small class="post-date post-description"> - 
+    {% tf date_format.html %}
+    </small>
     
 </h4>

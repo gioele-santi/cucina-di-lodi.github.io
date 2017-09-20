@@ -1,19 +1,21 @@
 ---
 layout: page
-title: Prodotti
+title: pages.products
+
+namespace: products
+
 permalink: /prodotti/
+permalink_it: /prodotti/
+permalink_en: /products/
+permalink_jp: /shokuhin/
 ---
 
 <!-- Introduzione -->
 <section id="about" class="container content-section text-center">
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2">
-          <br/><br/>
-          <h2>I nostri prodotti</h2>
-          <br/>
-            <p>I nostri prodotti sono frutto di un’appassionata ricerca e riscoperta delle <b>ricette e delle forme tradizionali</b>. Ma i sapori cambiano di famiglia in famiglia e così anche le nostre ricette sono <b>state adattate e personalizzate</b> per trasmettere a più persone possibile il ricordo e l’emozione dei piatti di una volta. </p>
-            <p>Le produzione è <b>rigorosamente manuale</b> e viene prestata la massima attenzione sia nella scelta di <b>materie prime di massima qualità</b>, ma anche all’<b>igiene ed alla salute</b>.</p>
-            <p>E poi ... sono anche buoni! Come ci dicono i clienti da 30 anni.</p>
+            <br/><br/>
+            {% tf products_presentation.md %}
             <br/>
           </div>
     </div>
@@ -33,7 +35,7 @@ permalink: /prodotti/
                 <div class="col-lg-5 col-sm-6">
                     {% include separator_heading.html %}
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <h2 class="section-heading">{% t post.title %}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -70,7 +72,7 @@ permalink: /prodotti/
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     {% include separator_heading_reverse.html %}
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">{{ post.title }}</h2>
+                    <h2 class="section-heading">{% t post.title %}</h2>
                     <div class="lead">{{ post.content }}</div>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">

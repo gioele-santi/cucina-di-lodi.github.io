@@ -46,11 +46,11 @@ layout: page
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" title="Precedente">
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" title="{% t homepage.previous %}">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" title="Prossima">
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" title="{% t homepage.next %}">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
@@ -77,16 +77,17 @@ layout: page
   
   <div class="row">
     <div class="col-sm-8">
-        <h3>In evidenza</h3>
+        <!-- In evidenza -->
+        <h3>{% t homepage.highlight %}</h3>
         
         {% include separator_small_reverse.html %}
         
         {% for article in site.evidenza %}
             <h2 class="hidden"> {{article.title}} </h2>
             <div class="col-sm-6">
-                <a href="{{article.link}}" title="{{article.title}}">
+                <a href="{% tl {{article.namespace}} %}" title="{% t {{article.title}} %}">
                     <img src="{{article.images[0].url}}" class="img-responsive img-rounded" style="width:100%" alt="{{article.images[0].alt}}">
-                    <p>{{article.title}}</p>
+                    <p>{% t {{article.title}} %}</p>
                 </a>
             </div>
         
@@ -96,7 +97,8 @@ layout: page
     </div>
     
     <div class="col-sm-4">
-      <h3>Recenti</h3>
+        <!-- Recenti -->
+      <h3>{% t homepage.lastnews %}</h3>
         
         {% include separator_small.html %}
         

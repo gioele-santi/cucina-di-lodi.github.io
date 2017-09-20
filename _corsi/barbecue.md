@@ -1,5 +1,5 @@
 ---
-title: Cucina al barbecue
+title: courses.barbecue
 
 sitemap: false
 
@@ -9,6 +9,4 @@ images:
 
 ---
 
-Raccogliete **famiglia** e **amici** attorno al fuoco 
-
-e preparate **succulenti** piatti a base di **carne** ma non solo!
+{% tf courses/barbecue.md %}

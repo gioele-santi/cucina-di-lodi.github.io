@@ -1,0 +1,3 @@
+Strozzapreti is the ultimate **peasant food**. The original recipe included only **flour, water and salt**. The secret was the craftsmanship of housewives, who patiently rolled pasta stripes with their hands and teared them at the desired length.
+
+In time, some **eggs** were added to the recipe. But it is still a very simple recipe, that suits **rich and savoury sauces**: meatsauce, vegetables, sausages or also fish.

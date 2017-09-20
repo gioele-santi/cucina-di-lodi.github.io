@@ -6,10 +6,6 @@ date:   2017-09-15 00:30:00 +0100
 categories: ricette
 tags: insalata vegan
 
-images:
-  - url: /img/placeholder.jpg
-    alt: Insalata di pasta
-   
 image_credits: Foto di Gionata Santi</a>
  
 ---

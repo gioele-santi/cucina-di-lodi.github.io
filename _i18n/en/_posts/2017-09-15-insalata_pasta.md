@@ -5,10 +5,6 @@ date:   2017-09-15 00:30:00 +0100
 
 categories: recipes
 tags: salad vegan
-
-images:
-  - url: /img/placeholder.jpg
-    alt: Pasta salad
    
 image_credits: Foto di Gionata Santi</a>
 

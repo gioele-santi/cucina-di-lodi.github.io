@@ -16,7 +16,7 @@ pagination:
         <div class="post">
             <h2 class="post-title">
               {% capture post_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ post.url }}{% endcapture %} 
-              <a href="{{ post_url }}" title="{{ post.title }}">
+              <a href="{{ post_url }}" title="{{ post.title | strip_html }}">
                 {{ post.title }}
               </a>
             </h2>

@@ -14,7 +14,7 @@ image_credits: Photo by Gionata Santi</a>
  
 ---
 
-Ripartono i nostri corsi di cucina casalinga ed i segreti della pasta.
+New edition of our cooking classes: Household cooking and Secrets of fresh pasta
 
 <!--continua-->
 

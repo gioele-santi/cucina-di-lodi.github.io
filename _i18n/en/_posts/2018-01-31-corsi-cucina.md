@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Don't stay with your hands in pocket. Let's get our hands *dirty*!"
+title:  "Don't stay with your hands in pocket. Let's get our hands <i>dirty</i>!"
 date:   2018-01-31 00:30:00 +0100
 
 categories: news

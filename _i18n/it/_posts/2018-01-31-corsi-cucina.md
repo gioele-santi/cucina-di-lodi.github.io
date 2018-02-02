@@ -18,7 +18,7 @@ Ripartono i nostri corsi di cucina casalinga ed i segreti della pasta.
 
 <!--continua-->
 
-###Cucina casalinga
+### Cucina casalinga
 
 Un corso aperto a tutti, grandi e piccini, uomini e donne, single o coppie.
 
@@ -26,7 +26,7 @@ Impariamo assieme le **basi della cucina**.
 
 Capiamo e prepariamo le verdure, i cereali, la carne ed il pesce.
 
-###I segreti della pasta
+### I segreti della pasta
 
 Hai un vecchio mattarello a casa ma non lo hai mai usato?
 Perché allora non imparare a fare la pasta fresca in casa?

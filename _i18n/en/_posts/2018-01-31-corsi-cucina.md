@@ -18,7 +18,7 @@ New edition of our cooking classes: Household cooking and Secrets of fresh pasta
 
 <!--continua-->
 
-###Household cooking
+### Household cooking
 
 This class is open to all: adults and kids, men and women, singles or couples.
 
@@ -26,7 +26,7 @@ Let's learn together **cooking basics**.
 
 Let's understand and cook using vegetables, grains, meat and fish.
 
-###Secrets of fresh pasta
+### Secrets of fresh pasta
 
 Do you have an old rolling pin but you never actually used it?
 Why don't you learn making fresh pasta at home?

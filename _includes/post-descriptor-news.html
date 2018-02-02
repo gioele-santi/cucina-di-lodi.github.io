@@ -5,7 +5,7 @@
 <h4 class="post-description-short">
 
     {% capture post_url %}{% unless site.lang == site.languages[0] %}/{{ site.lang }}{% endunless %}{{ post.url }}{% endcapture %} 
-    <a href="{{ post_url }}" title="{{ post.title }}">
+    <a href="{{ post_url }}" title="{{ post.title | strip_html }}">
         {{ post.title }}
     </a>
     

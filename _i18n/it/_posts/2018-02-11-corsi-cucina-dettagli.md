@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Programmi dei corsi 2018"
-date:   2018-01-31 00:30:00 +0100
+date:   2018-02-11 00:30:00 +0100
 
 categories: notizie
 tags: pasta corso scuola

@@ -20,11 +20,13 @@ Pubblichiamo oggi i programmi dei corsi di cucina casalinga e di pasta fresca. L
 
 ### Cucina casalinga
 
-Il corso si svilupperà in 7 incontri della durata di X ore ciascuno. È possibile scegliere fra i seguenti giorni/orari:
+Il corso si svilupperà in 7 incontri della durata di circa 3 ore ciascuno. È possibile scegliere fra i seguenti giorni/orari:
 
-* Mercoledì sera dalle X alle X
+* Mercoledì pomeriggio a partire dalle ore 16:00 
+* Mercoledì sera a partire dalle ore 20:30
+* Venerdì sera a partire dalle ore 20:30
 
-Gli incontri nei dettagli:
+Gli argomenti degli incontri:
 
 1. I vegetali: verdura, frutta e legumi
 
@@ -42,11 +44,12 @@ Gli incontri nei dettagli:
 
 ### I segreti della pasta
 
-Il corso si svilupperà in 5 incontri della durata di X ore ciascuno. È possibile scegliere fra i seguenti giorni/orari:
+Il corso si svilupperà in 5 incontri della durata di circa 3 ore ciascuno. È possibile scegliere fra i seguenti giorni/orari:
 
-* Lunedì pomeriggio dalle X alle X
+* Lunedì pomeriggio a partire dalle ore 16:00 
+* Lunedì sera a partire dalle ore 20:30
 
-Gli incontri nei dettagli:
+Gli argomenti degli incontri:
 
 1. Conosciamo le farine, le uova ed altri liquidi per gli impasti. 
 

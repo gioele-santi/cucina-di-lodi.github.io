@@ -65,4 +65,8 @@ Gli argomenti degli incontri:
 
 Nel corso di tutti gli incontri approfondiremo le farine, le uova ed altri liquidi per gli impasti, ma anche le porzioni, le cotture e la conservazione.
 
+***
+
+**I corsi partiranno la settimana del 26 Febbraio o in caso non ci fossero abbastanza iscritti, nelle settimane successive al raggiungimento del numero minimo di iscritti per gruppo (almeno 12)**
+
 Per ulteriori informazioni contattateci alla nostra [email](&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x63;&#x75;&#x63;&#105;&#x6e;&#x61;&#x2e;&#x64;&#x69;&#46;&#108;&#111;&#100;&#x69;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109; "Invia email"), [Whatsapp](https://api.whatsapp.com/send?phone=393333528308 "Invia messaggio") o al numero: +393333528308

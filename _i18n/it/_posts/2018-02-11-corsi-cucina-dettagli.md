@@ -42,6 +42,8 @@ Gli argomenti degli incontri:
 
 7. Una festa
 
+{% include separator_small_reverse.html %}
+
 ### I segreti della pasta
 
 Il corso si svilupperà in 5 incontri della durata di circa 3 ore ciascuno. È possibile scegliere fra i seguenti giorni/orari:
@@ -50,12 +52,8 @@ Il corso si svilupperà in 5 incontri della durata di circa 3 ore ciascuno. È p
 * Lunedì sera a partire dalle ore 20:30
 
 Gli argomenti degli incontri:
-
-1. Conosciamo le farine, le uova ed altri liquidi per gli impasti. 
-
-    La pasta semplice (tagliatelle, stringhetti, pappardelle e pastine da brodo).
     
-    Le porzioni, le cotture e la conservazione.
+1. La pasta semplice (tagliatelle, stringhetti, pappardelle e pastine da brodo).
     
 2. La pasta ripiena con carne
 
@@ -64,5 +62,7 @@ Gli argomenti degli incontri:
 4. La pasta al forno
 
 5. Le paste senza uovo: strozzapreti e gnocchi
+
+Nel corso di tutti gli incontri approfondiremo le farine, le uova ed altri liquidi per gli impasti, ma anche le porzioni, le cotture e la conservazione.
 
 Per ulteriori informazioni contattateci alla nostra [email](&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x63;&#x75;&#x63;&#105;&#x6e;&#x61;&#x2e;&#x64;&#x69;&#46;&#108;&#111;&#100;&#x69;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109; "Invia email"), [Whatsapp](https://api.whatsapp.com/send?phone=393333528308 "Invia messaggio") o al numero: +393333528308

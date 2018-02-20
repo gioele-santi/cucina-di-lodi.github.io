@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Programmi dei corsi 2018"
-date:   2018-02-11 00:30:00 +0100
+date:   2018-02-20 00:30:00 +0100
 
 categories: notizie
 tags: pasta corso scuola
@@ -64,6 +64,12 @@ Gli argomenti degli incontri:
 5. Le paste senza uovo: strozzapreti e gnocchi
 
 Nel corso di tutti gli incontri approfondiremo le farine, le uova ed altri liquidi per gli impasti, ma anche le porzioni, le cotture e la conservazione.
+
+***
+
+**Aggiornamento 20/02/18**
+
+Si consiglia ai corsisti di munirsi di un grembiule, scarpe comode ed uno o più contenitori per poter portare a casa quanto preparato a lezione.
 
 ***
 

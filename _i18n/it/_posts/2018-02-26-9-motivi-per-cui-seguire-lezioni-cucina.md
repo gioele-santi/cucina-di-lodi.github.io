@@ -14,26 +14,29 @@ image_credits: Foto di Gionata Santi</a>
  
 ---
 
-Se vi siete mai chiesti perché partecipare ad un corso di cucina, siete capitati nel posto giusto!
+Vi siete mai chiesti perché partecipare ad un corso di cucina?
+
+
+Siete capitati nel posto giusto!
 Vediamo assieme alcuni motivi per cui delle lezioni di cucina potrebbero tornarvi utili.
 
 <!--continua-->
 
-1. **Per imparare tecniche e trucchi in cucina:** se i fornelli sono sempre stato il vostro tallone d'Achille, o se avete cominciato da poco a cucinare, la guida ed i consigli di chi ha più esperienza, vi permetteranno di fare rapidi progressi ed imparare velocemente i segreti della cucina e magari riprodurre il vostro piatto preferito.
+1. **Per imparare tecniche e trucchi in cucina:** se i fornelli sono sempre stati il vostro tallone d'Achille, o se avete cominciato da poco a cucinare, la guida ed i consigli di chi ha più esperienza, vi permetteranno di fare rapidi progressi ed imparare velocemente i segreti della cucina e magari riprodurre il vostro piatto preferito.
 
 2. **Per conoscere igiene e sicurezza degli alimenti:** l'igiene è fondamentale, soprattutto in cucina, per la nostra salute e per quella dei nostri cari, purtroppo libri, trasmissioni, video... spesso non ne parlano. Piccoli accorgimenti possono fare una grande differenza nella vostra cucina.
 
 3. **Per riscoprire le ricette tradizionali e di famiglia:** vi ricordate i profumi  ed i sapori dei piatti che mangiavate da bambini, ma non sapete bene come cucinarli. Confrontarsi a lezione può aiutare a riscoprire le nostre tradizioni familiari.
 
-4. **Per dedicarsi un pò di tempo:** lo studio ed il lavoro vi hanno sottratto il tempo e non avete mai davvero imparato a cucinare. Seguire le lezioni di cucina può aiutarvi a ritagliarvi un pò di tempo ma anche ad imparare come essere efficienti e dare il meglio in cucina anche nei ritagli di tempo.
+4. **Per dedicarsi un pò di tempo:** lo studio ed il lavoro vi hanno sottratto il tempo e non avete mai davvero imparato a cucinare. Seguire le lezioni di cucina può aiutarvi a ritagliare un pò di tempo ma anche ad imparare come essere efficienti e dare il meglio in cucina anche nei ritagli di tempo.
 
 5. **Per i propri figli:** durante la giornata non mangiamo solo durante i pasti canonici, capita di spizzicare qualcosa ogni tanto, soprattutto ai più giovani. Allora perché non imparare a prepare qualche cibo più sano di quelli confezionati e mangiare meglio noi ed i nostri figli?
 
 6. **Per i propri figli (parte 2):** se abbiamo dei figli (o dei nipoti) piccoli, può essere divertente collaborare e giocare con loro in cucina. Anche i più piccoli, a partire dai quattro anni possono seguire le nostre lezioni di cucina.
 
-7. **Per evitare tutti quei cibi confezionati:** se siete studenti universitari o siete andati a vivere da soli fuori sede, seguire delle lezini di cucina può essere utile per fare un pò meno affidamento ai cibi pronti che troviamo nei supermercati e migliorare le proprie abitudini di vita.
+7. **Per evitare tutti quei cibi confezionati:** siete studenti universitari o siete andati a vivere da soli, seguire delle lezioni di cucina può essere utile per fare un pò meno affidamento sui cibi pronti che troviamo nei supermercati e migliorare le proprie abitudini di vita.
 
-8. **Sogni di diventare chef:** ovviamente se è il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione nel futuro, frequentare delle lezioni può aiutarvi a chiarirvi le idee e fare i primi passi nella direzione giusta.
+8. **Sogni di diventare chef:** ovviamente se il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione del futuro, frequentare delle lezioni può aiutare a chiarirvi le idee e fare i primi passi nella direzione giusta.
 
 9. **Vuoi cambiare vita:** se sogni di andare a vivere all'estero, saper cucinare è sicuramente indispensabile, ma può essere anche un ottima opportunità di lavoro.
 

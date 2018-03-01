@@ -36,12 +36,12 @@ Vediamo assieme alcuni motivi per cui delle lezioni di cucina potrebbero tornarv
 
 7. **Per evitare tutti quei cibi confezionati:** siete studenti universitari o siete andati a vivere da soli, seguire delle lezioni di cucina può essere utile per fare un pò meno affidamento sui cibi pronti che troviamo nei supermercati e migliorare le proprie abitudini di vita.
 
-8. **Sogni di diventare chef:** ovviamente se il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione del futuro, frequentare delle lezioni può aiutare a chiarirvi le idee e fare i primi passi nella direzione giusta.
+8. **Sognate di diventare chef:** ovviamente se il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione del futuro, frequentare delle lezioni può aiutare a chiarirvi le idee e fare i primi passi nella direzione giusta.
 
-9. **Vuoi cambiare vita:** se sogni di andare a vivere all'estero, saper cucinare è sicuramente indispensabile, ma può essere anche un ottima opportunità di lavoro.
+9. **Volete cambiare vita:** se sognate di andare a vivere all'estero, saper cucinare è sicuramente indispensabile, ma può essere anche un ottima opportunità di lavoro.
 
 ***
 
-**Le iscrizioni ai nostri corsi di cucina e pasta fresca sono ancora aperte! Le lezioni partiranno al raggiungimento del numero minimo di iscritti per gruppo (almeno 12).**
+**Le iscrizioni ai nostri corsi di cucina casalinga e pasta fresca sono ancora aperte! Le lezioni partiranno al raggiungimento del numero minimo di iscritti per gruppo (almeno 12).**
 
 Per ulteriori dettagli sui corsi clicca [qui](/2018/02/10/corsi-cucina-dettagli) oppure contattateci alla nostra [email](&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x63;&#x75;&#x63;&#105;&#x6e;&#x61;&#x2e;&#x64;&#x69;&#46;&#108;&#111;&#100;&#x69;&#x40;&#x67;&#109;&#x61;&#105;&#x6c;&#x2e;&#99;&#111;&#109; "Invia email"), [Whatsapp](https://api.whatsapp.com/send?phone=393333528308 "Invia messaggio") o al numero: +393333528308

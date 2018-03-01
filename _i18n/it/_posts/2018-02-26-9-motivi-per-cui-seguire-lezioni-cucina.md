@@ -7,8 +7,8 @@ categories: notizie
 tags: pasta corso scuola
 
 images:
-  - url: /img/corsi/cucina_casalinga.jpg
-    alt: tagliatelle
+  - url: /img/corsi/pentole.jpg
+    alt: pentole
 
 image_credits: Foto di Gionata Santi</a>
  

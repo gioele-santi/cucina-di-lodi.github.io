@@ -36,9 +36,9 @@ Vediamo assieme alcuni motivi per cui delle lezioni di cucina potrebbero tornarv
 
 7. **Per evitare tutti quei cibi confezionati:** siete studenti universitari o siete andati a vivere da soli, seguire delle lezioni di cucina può essere utile per fare un pò meno affidamento sui cibi pronti che troviamo nei supermercati e migliorare le proprie abitudini di vita.
 
-8. **Sognate di diventare chef:** ovviamente se il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione del futuro, frequentare delle lezioni può aiutare a chiarirvi le idee e fare i primi passi nella direzione giusta.
+8. **Sognate di diventare chef:** ovviamente se il vostro sogno nel cassetto è quello di diventare uno chef, o semplicemente vorreste scoprire se la cucina potrebbe diventare una professione nel futuro, frequentare delle lezioni può aiutare a chiarirvi le idee e fare i primi passi nella direzione giusta.
 
-9. **Volete cambiare vita:** se sognate di andare a vivere all'estero, saper cucinare è sicuramente indispensabile, ma può essere anche un ottima opportunità di lavoro.
+9. **Volete cambiare vita:** se sognate di andare a vivere all'estero, saper cucinare è sicuramente indispensabile, ma può essere anche un'ottima opportunità di lavoro.
 
 ***
 

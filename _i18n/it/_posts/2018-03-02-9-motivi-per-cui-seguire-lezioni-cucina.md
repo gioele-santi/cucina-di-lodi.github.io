@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "9 motivi per cui seguire delle lezioni di cucina"
-date:   2018-02-11 00:30:00 +0100
+date:   2018-03-02 00:30:00 +0100
 
 categories: notizie
 tags: pasta corso scuola
